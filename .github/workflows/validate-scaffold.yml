@@ -1,4 +1,4 @@
-name: Validate repository scaffold (no framework validation)
+name: Validate repository and comprehensive library
 
 on:
   push:
@@ -9,8 +9,7 @@ permissions:
   contents: read
 
 jobs:
-  scaffold:
-    name: Structure only - regulatory and import validation pending
+  validate:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
@@ -22,7 +21,7 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Validate repository scaffold
+      - name: Install validation dependency
+        run: python -m pip install -r scripts/requirements-validation.txt
+      - name: Check structure and library consistency
         run: python scripts/validate_scaffold.py
-      - name: State validation scope
-        run: echo '::warning::Scaffold checks only. Regulatory content, Excel/YAML schemas and CISO Assistant imports are NOT validated.'
