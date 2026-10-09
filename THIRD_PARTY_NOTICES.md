@@ -1,19 +1,11 @@
-# Third-party notices
+# Third-party notices / Avisos de terceros
 
-The initial scaffold contains links to official sources but no BCCR regulatory documents or excerpts and no copied CISO Assistant library or application code. Project names are used for identification only; trademark rights are not granted.
+## BCCR NT-RCS edition 7
 
-BCCR texts, publications, quotations, reproductions and logos are excluded from this repository's MIT grant. Other third-party material is also excluded unless separately identified under its own terms. This notice does not determine whether specific regulatory text is protected or reusable.
+Authority: Banco Central de Costa Rica. Effective date: 2026-02-11. [Official source](https://www.bccr.fi.cr/content/dam/bccr/publicaciones/sistemas-de-pagos/nt-requisitos-ciberseguridad-para-participar-sinpe.pdf).
 
-Before adding any excluded material, create a record below and review its applicable terms. A citation alone does not grant redistribution rights. Prefer an official link and an original analysis when rights have not been established.
+Included: 47 section-6 control titles/bodies; unofficial English translations; editorial procedural summaries and contextual notes based on sections 2, 3, 5 and 7. Source text, translations and regulatory adaptations are excluded from the repository MIT grant. ARG INNOVA does not claim authorship of the norm or grant third-party rights.
 
-## Future notice template — no material registered yet
+Reuse is authorized by the project owner based on the public BCCR publication; it is not an MIT grant over the norm. The official PDF and third-party logos are not bundled. No BCCR or Intuitem endorsement is claimed.
 
-- Repository file and exact portion: PENDING
-- Source title, authority and version: PENDING
-- Official URL and access date: PENDING
-- Rights holder and applicable terms: PENDING
-- Permission or other reviewed basis for inclusion: PENDING
-- Required attribution and limitations: PENDING
-- Reviewer and review date: PENDING
-
-Keep the licensing scope visible inside any future artifact that mixes original and excluded material.
+Validation results reference official CISO Assistant code, but no upstream application code is distributed in this repository update. Original project scripts and authorized organizational documentation retain the scoped license.

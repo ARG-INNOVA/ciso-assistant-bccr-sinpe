@@ -1,53 +1,51 @@
 # BCCR–SINPE for CISO Assistant
 
-Initial repository scaffold maintained by **ARG INNOVA** for a planned Costa Rica BCCR–SINPE cybersecurity compliance library for CISO Assistant.
+Prepared and maintained by **[ARG INNOVA](https://www.arginnova.com)**. [Español](README.es.md).
 
-**Status: preparation only.** No final Excel workbook, importable framework YAML, verified control inventory, or completed cross-framework mapping is included. No claim of 47 verified controls is made. The applicable regulatory documents, versions, effective dates and scope still require review. CISO Assistant compatibility has not been tested.
+Comprehensive assessment library based on Banco Central de Costa Rica NT-RCS, edition 7, effective February 11, 2026.
 
-[Español](README.es.md)
+| Contents | Count |
+| --- | ---: |
+| Official technical controls | 47 |
+| Procedural checklist criteria | 66 |
+| Non-assessable context notes | 9 |
 
-## Purpose and scope
+The 66 criteria are editorial subdivisions of procedural requirements, not additional official controls. Checklist stages cover preparation (17), report preparation/submission (36), follow-up (6), and incidents/reconnection (7).
 
-Prepare a traceable, reviewed representation of applicable BCCR–SINPE requirements for use in CISO Assistant. Determine applicability, source versions and requirement boundaries before drafting controls. This is an independent community initiative; BCCR and Intuitem endorsement or affiliation is not claimed. This scaffold does not establish compliance or constitute legal advice.
+## Download and import
 
-## Repository layout
+- [YAML — comprehensive assessment library](framework/releases/bccr-sinpe-nt-rcs-ed7-evaluacion-integral.yaml)
+- [Import instructions](docs/IMPORT.md)
+- [Releases and downloads](https://github.com/ARG-INNOVA/ciso-assistant-bccr-sinpe/releases)
 
-```text
-.github/workflows/validate-scaffold.yml  Structural checks only
-framework/                             Future artifacts and status metadata
-framework/drafts/                      Drafting instructions; no control content
-framework/releases/                    Reserved for reviewed import artifacts
-mappings/                              Mapping methodology and blank template
-scripts/validate_scaffold.py            Dependency-free structural validator
-docs/                                  Sources, licensing, validation and publishing
-CONTRIBUTING.md                         Contribution and review process
-CHANGELOG.md                            Unreleased scaffold changes
-LICENSE                                MIT grant for original content only
-THIRD_PARTY_NOTICES.md                  Regulatory and third-party exclusions
-```
+Import the YAML through CISO Assistant’s library upload function and create a new assessment. Select technical groups from one category only and retain the four checklist groups. This library uses separate URNs and does not automatically migrate earlier assessments.
 
-## Getting started
+Category 1 displays 47 controls (43 mandatory, 4 optional). Category 2 displays 39 (29 mandatory, 10 optional), excluding 8 non-applicable controls. Defaults select all of category 1 and the four checklist groups. Both category classifications appear at the start of every control.
 
-1. Read [project status](docs/PROJECT_STATUS.md) and [source register](docs/SOURCES.md).
-2. Follow [upload instructions](docs/UPLOAD.es.md) to place this scaffold at the repository root.
-3. Run `python3 scripts/validate_scaffold.py` from the repository root (Python 3.9+).
-4. Complete the source register, regulatory review and [release checklist](docs/VALIDATION.md) before producing a framework release.
+Checklist responses use Compliant / Noncompliant and, for conditional requirements, Not applicable. Answers drive status without numeric scores. Score fields are proposed hidden in new assessments. Overall progress may include checklist items and is not the BCCR regulatory verdict.
 
-The GitHub Actions workflow runs structural checks on pushes and pull requests and can be triggered manually. A passing run means only that the scaffold checks passed. It does not validate regulatory content, Excel/YAML schemas, mappings or import behavior.
+## Languages, references and validation
 
-## Importing into CISO Assistant
+Technical controls preserve official Spanish text and IDs. English translations are unofficial; the Spanish PDF prevails. Suffixes such as 5.4.3.A and 7.A are ARG INNOVA subdivisions, not BCCR numbering.
 
-There is currently **nothing to import**. See [future import validation](docs/IMPORT.md). Select and record an upstream CISO Assistant version or commit and its documented library format before preparing any workbook or YAML. Do not rename placeholders to importable file extensions.
+The user reported successful import and visual review. Checks cover structure, text and applicability, plus 230 cases using official answer logic with in-memory fixtures. No isolated database import test was executed; the user’s installed version was not recorded.
+
+- [Source register](docs/SOURCES.md)
+- [Validation scope](docs/VALIDATION.md)
+- [Test results](docs/VALIDATION_RESULTS.json)
+- [Subdivision traceability](docs/TRACEABILITY.json)
+- [Project status](docs/PROJECT_STATUS.md)
+
+## ARG INNOVA
+
+For company information and optional professional services, visit [www.arginnova.com](https://www.arginnova.com).
+
+Credits cover library preparation and unofficial translation; BCCR is the regulatory author. No BCCR or Intuitem endorsement is claimed. Authorized open-source content does not require purchasing services.
 
 ## Licensing and contributions
 
-The [MIT license](LICENSE) applies only to original content whose rights holders authorize that grant. BCCR regulations, publications, quotations, logos and other third-party content are excluded; see [licensing policy](docs/LICENSING.md) and [third-party notices](THIRD_PARTY_NOTICES.md). This repository grants no rights to that excluded material.
+MIT covers authorized original content only. BCCR wording, translations and regulatory adaptations are excluded from the grant. Regulatory reuse follows the project owner’s stated decision and authorization.
 
-Use [CONTRIBUTING.md](CONTRIBUTING.md) for changes. Proposals are reviewed through GitHub issues and pull requests; no external email address is assumed.
+[LICENSE](LICENSE) · [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) · [CONTRIBUTING.md](CONTRIBUTING.md).
 
-## Official references
-
-- [Banco Central de Costa Rica](https://www.bccr.fi.cr/) — discovery starting point, not a selected regulatory baseline.
-- [CISO Assistant upstream repository](https://github.com/intuitem/ciso-assistant-community) — format and contribution guidance to verify against the selected version.
-
-Reference links do not imply regulatory validation or upstream acceptance.
+Publication in this repository is independent of any future acceptance into the official CISO Assistant project.

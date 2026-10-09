@@ -1,21 +1,15 @@
 # Changelog
 
-Changes are recorded here after review. Dates use YYYY-MM-DD.
+## [0.1.1] — 2026-10-09 (proposed repository release)
 
-## Unreleased
+- Added bilingual comprehensive NT-RCS edition 7 YAML library.
+- Preserved 47 official technical controls and category applicability.
+- Decomposed 42 editorial supplemental records into 66 procedural checklist criteria and 9 context notes.
+- Grouped preparation, report submission, follow-up and incidents/reconnection.
+- Added source-section letter suffixes, conditional applicability and native compliance questions without numeric scores.
+- Recorded 230 native-result logic cases and user-reported successful import/visual review.
+- Updated bilingual documentation, provenance, scoped licensing and automated structural checks.
 
-### Added
+This entry prepares a GitHub release; it does not create a release/tag or assert upstream acceptance. No installed user application version or isolated database import test has been recorded.
 
-- Initial ARG INNOVA repository scaffold with English and Spanish READMEs.
-- MIT licensing scope restricted to authorized original content and explicit third-party exclusions.
-- Source-register, mapping and release-review templates.
-- Structural validation script and GitHub Actions workflow.
-
-### Pending
-
-- Selection and review of the applicable regulatory baseline.
-- Verified requirement inventory; no verified control count is asserted.
-- Excel/YAML creation and validation against a selected CISO Assistant version.
-- Import tests, mapping review and first framework release.
-
-No framework release has been published by this scaffold.
+- Corrected optional-control visibility: category groups now include mandatory and optional controls; both classifications are displayed in each control. YAML library version 2.
