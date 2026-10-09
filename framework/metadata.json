@@ -1,0 +1,10 @@
+{
+  "project": "ciso-assistant-bccr-sinpe",
+  "maintainer": "ARG INNOVA",
+  "status": "scaffold",
+  "regulatory_sources": [],
+  "verified_control_count": null,
+  "ciso_assistant_version": null,
+  "framework_release": null,
+  "import_tested": false
+}

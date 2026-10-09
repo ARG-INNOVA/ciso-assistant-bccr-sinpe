@@ -1,6 +1,19 @@
+LICENSING SCOPE — ORIGINAL CONTENT ONLY
+
+The MIT permission below applies solely to original code, documentation,
+annotations and templates in this repository for which ARG INNOVA or the
+respective contributor holds the necessary rights and authorizes this grant.
+
+BCCR regulatory texts, official publications, quotations, reproductions,
+logos and other third-party material are expressly excluded from this grant,
+including when embedded in an otherwise original file. No ownership of or
+permission to sublicense such material is asserted. Its use is governed by
+its own applicable terms and rights. See THIRD_PARTY_NOTICES.md and
+docs/LICENSING.md for provenance and handling of excluded material.
+
 MIT License
 
-Copyright (c) 2026 AlexeyCR24
+Copyright (c) 2026 ARG INNOVA and contributing rights holders
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
