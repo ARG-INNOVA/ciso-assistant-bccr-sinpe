@@ -1,0 +1,37 @@
+{
+  "baseline_repository_commit": "0ef7dce7cad428bb3a3b137bdc48b99403f90de2",
+  "packaging": "ZIP entries are repository-relative, without an enclosing directory",
+  "updated_existing_paths": [
+    ".github/workflows/validate-scaffold.yml",
+    ".gitignore",
+    "CHANGELOG.md",
+    "CONTRIBUTING.md",
+    "LICENSE",
+    "README.es.md",
+    "README.md",
+    "THIRD_PARTY_NOTICES.md",
+    "docs/IMPORT.md",
+    "docs/LICENSING.md",
+    "docs/PROJECT_STATUS.md",
+    "docs/SOURCES.md",
+    "docs/UPLOAD.es.md",
+    "docs/VALIDATION.md",
+    "framework/README.md",
+    "framework/drafts/README.md",
+    "framework/drafts/REQUIREMENT_TEMPLATE.md",
+    "framework/metadata.json",
+    "framework/releases/README.md",
+    "mappings/MAPPING_TEMPLATE.md",
+    "mappings/README.md",
+    "scripts/validate_scaffold.py"
+  ],
+  "added_paths": [
+    "docs/SOURCE_CONTROL_HASHES.json",
+    "docs/TRACEABILITY.json",
+    "docs/VALIDATION_RESULTS.json",
+    "framework/releases/bccr-sinpe-nt-rcs-ed7-evaluacion-integral.yaml",
+    "scripts/requirements-validation.txt"
+  ],
+  "deletions_required": [],
+  "note": "Copy/replace these files preserving their paths. Older files outside this snapshot are not deleted. Dotfiles are included. YAML library version 2 fixes optional visibility."
+}

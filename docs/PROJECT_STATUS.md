@@ -1,26 +1,11 @@
-# Project status
+# Project status / Estado del proyecto
 
-Maintainer: ARG INNOVA. Stage: initial scaffold; no framework release.
+Current artifact: [comprehensive YAML](../framework/releases/bccr-sinpe-nt-rcs-ed7-evaluacion-integral.yaml). Proposed first GitHub release tag: `v0.1.1`; YAML library version: `2`. The release has not been created automatically.
 
-| Item | Status |
-| --- | --- |
-| Applicable regulatory documents and versions | Pending selection and review |
-| Regulatory applicability and effective dates | Pending |
-| Verified requirement/control count | Not established |
-| Excel workbook and framework YAML | Not created |
-| CISO Assistant version/schema | Not selected |
-| Import and compatibility tests | Not performed |
-| Cross-framework mappings | Not created or reviewed |
-| Third-party redistribution assessment | Pending for any future source material |
-| Structural validator | Included; validates scaffold only |
+47 official technical controls; 66 editorial procedural checklist criteria; 9 non-assessable context notes. User-reported successful import and visual review. Installed application version unknown. Independent consultant review is optional, not a publication prerequisite.
 
-The machine-readable [metadata](../framework/metadata.json) describes repository preparation, not a CISO Assistant library. Null values mean not established; an empty source list means none has been selected. Do not substitute guessed values or an assumed 47-control inventory.
+The library remains independent of Intuitem; no upstream acceptance or future bundled version is claimed. Catalogue/supersession checks and related standard contents have not been added to this baseline. No reviewed control mappings exist.
 
-## Work sequence
+Biblioteca importable revisada visualmente por el usuario. La evaluación sigue el documento NT-RCS edición 7 indicado; no se afirma ausencia de revisiones posteriores ni certificación de cumplimiento de una entidad.
 
-1. Select official sources and document applicability and rights.
-2. Draft a requirement inventory with exact source references and original analysis.
-3. Review the interpretation and establish a supported inventory count.
-4. Select upstream version/schema and build draft artifacts.
-5. Add schema, semantic and import validation; review mappings separately.
-6. Complete release review and record evidence before publishing a framework version.
+Optional visibility was corrected in YAML version 2 after the user’s import test. Reimport this version and select `cat1` or `cat2`; optional controls are included.

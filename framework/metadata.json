@@ -1,10 +1,33 @@
 {
   "project": "ciso-assistant-bccr-sinpe",
   "maintainer": "ARG INNOVA",
-  "status": "scaffold",
-  "regulatory_sources": [],
-  "verified_control_count": null,
-  "ciso_assistant_version": null,
-  "framework_release": null,
-  "import_tested": false
+  "website": "https://www.arginnova.com",
+  "status": "importable_library_user_reviewed",
+  "release_tag_proposed": "v0.1.1",
+  "library_version": 2,
+  "library_urn": "urn:arg-innova:risk:library:bccr-sinpe-nt-rcs-ed7-integral",
+  "artifact": "framework/releases/bccr-sinpe-nt-rcs-ed7-evaluacion-integral.yaml",
+  "official_technical_control_count": 47,
+  "procedural_checklist_count": 66,
+  "non_assessable_context_count": 9,
+  "baseline": {
+    "code": "NT-RCS",
+    "edition": 7,
+    "effective_date": "2026-02-11",
+    "url": "https://www.bccr.fi.cr/content/dam/bccr/publicaciones/sistemas-de-pagos/nt-requisitos-ciberseguridad-para-participar-sinpe.pdf",
+    "sha256": "349f7dc00cd2988699686c85c1d8feefd967ddedd23420994a53b53c664a053c",
+    "latest_edition_catalogue_check": "not_performed"
+  },
+  "upstream_reference_commit": "de943807c3b5e0d5dd8e92ff39bfadbc950bd7f8",
+  "validation": {
+    "structure_and_content": "passed",
+    "native_result_cases": 230,
+    "isolated_database_import": "not_performed",
+    "user_import_and_visual_review": "reported_successful_for_previous_library_version_1",
+    "user_ciso_assistant_version": null,
+    "independent_consultant_review": "optional",
+    "optional_visibility": "Corrected: all applicable optional controls visible in category groups; classification displayed in each control",
+    "corrected_library_version_2_user_reimport": "not_yet_reported"
+  },
+  "reuse_project_decision": "Authorized by project owner based on public BCCR publication; no MIT grant over regulatory material"
 }

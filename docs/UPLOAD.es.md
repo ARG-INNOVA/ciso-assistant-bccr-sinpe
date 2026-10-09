@@ -1,21 +1,11 @@
-# Cómo subir la estructura a GitHub
+# Publicar los archivos en GitHub
 
-## Desde el ZIP
+1. Descomprimir el ZIP de reemplazo. Los archivos están en la raíz del ZIP, sin carpeta contenedora adicional.
+2. Copiar todo el contenido sobre la raíz de `ciso-assistant-bccr-sinpe`, conservando las rutas y reemplazando los archivos con el mismo nombre. Incluye `.github` y `.gitignore`, que macOS puede ocultar.
+3. Para subir por la web: usar Add file → Upload files y cargar los archivos y carpetas descomprimidos. No subir únicamente el ZIP. Si `.github` queda fuera, reemplazar manualmente `.github/workflows/validate-scaffold.yml` con el archivo incluido.
+4. Guardar el cambio y comprobar que Actions termina correctamente.
+5. Crear una Release con etiqueta propuesta `v0.1.1`, adjuntando el YAML de `framework/releases/`. Se puede adjuntar también el ZIP de importación integral entregado anteriormente.
 
-1. Descomprimir `ciso-assistant-bccr-sinpe-initial.zip`.
-2. Abrir la carpeta `ciso-assistant-bccr-sinpe` incluida en el ZIP.
-3. Subir **su contenido** a la raíz del repositorio GitHub `ciso-assistant-bccr-sinpe`. No subir el ZIP como sustituto de los archivos ni crear una carpeta adicional con el mismo nombre dentro del repositorio.
-4. Incluir `.github/` y `.gitignore`. En Finder, `Cmd + Shift + .` permite ver elementos ocultos. Si la carga web omite elementos ocultos, usar Git o GitHub Desktop para copiarlos y publicarlos.
-5. Si GitHub ya generó README, LICENSE o .gitignore, revisar y reemplazar esos archivos con las versiones de este paquete. Es esencial sustituir la licencia MIT genérica por la versión con alcance expreso del paquete.
-6. Revisar el cambio y confirmar el commit. Comprobar que `README.md`, `LICENSE` y `.github/workflows/validate-scaffold.yml` estén en las rutas correctas.
-7. Revisar la pestaña Actions. Si las políticas del repositorio requieren habilitar Actions, hacerlo antes de comprobar la ejecución. El nombre del workflow es “Validate repository scaffold (no framework validation)”.
+Este paquete no elimina archivos antiguos: si ya agregaste un YAML anterior, puedes conservarlo claramente identificado como histórico. El nuevo README apunta solo a la evaluación integral. No reemplazar archivos con datos propios de clientes o evaluaciones confidenciales.
 
-## Si se trabaja con un clon existente
-
-Copiar el contenido del paquete sobre el clon, sin borrar `.git/`. Revisar las diferencias antes de confirmar y publicar; conservar cualquier trabajo previo que corresponda. Ejecutar desde la raíz:
-
-```sh
-python3 scripts/validate_scaffold.py
-```
-
-El ZIP no incluye `.git/`, remotos configurados, credenciales ni una publicación automática. No hace falta crear manualmente las carpetas. Un workflow verde solo verifica la estructura inicial y no acredita validación normativa ni compatibilidad de importación.
+La publicación en ARG INNOVA no envía automáticamente una contribución al proyecto de Intuitem; eso requiere otro Pull Request.

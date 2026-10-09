@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-09",
+  "upstream_commit": "de943807c3b5e0d5dd8e92ff39bfadbc950bd7f8",
+  "library_urn": "urn:arg-innova:risk:library:bccr-sinpe-nt-rcs-ed7-integral",
+  "official_technical_controls": 47,
+  "procedural_checklist_items": 66,
+  "non_assessable_context_notes": 9,
+  "checklist_by_stage": {
+    "preparation": 17,
+    "report": 36,
+    "followup": 6,
+    "incidents": 7
+  },
+  "source_coverage": "42/42 prior supplemental records mapped; editorial decomposition into 75 records",
+  "technical_text_and_translation_preservation": "PASS 47/47",
+  "technical_applicability": {
+    "cat1-mandatory": 43,
+    "cat1-optional": 4,
+    "cat2-mandatory": 29,
+    "cat2-optional": 10
+  },
+  "official_store_library_dry_run": "PASS using unmodified upstream method with in-memory LoadedLibrary lookup; no real database import",
+  "official_answer_to_result_recompute": "PASS 230 cases using unmodified upstream method and helper functions with in-memory question/answer fixtures; scores remain None and is_scored False",
+  "yaml_tree_urns_translations": "PASS",
+  "new_assessment_score_fields": "Hidden; status-based checklist, not a numeric regulatory score",
+  "application_database_import": "Not executed: user installation unavailable",
+  "editorial_suffixes": "Letter suffixes .A, .B, etc. are ARG INNOVA subdivisions, not BCCR numbering",
+  "regulatory_baseline": "NT-RCS edition 7; effective 2026-02-11",
+  "baseline_sha256": "349f7dc00cd2988699686c85c1d8feefd967ddedd23420994a53b53c664a053c",
+  "library_version": 2,
+  "optional_visibility": {
+    "category_1_visible_controls": 47,
+    "category_2_visible_controls": 39,
+    "6.3.3": "Optional in both categories; included in both groups",
+    "classification_display": "Spanish/English prefixes in every technical control",
+    "source_text_preservation": "47/47 original ES and EN bodies unchanged after classification prefix"
+  },
+  "user_import_and_visual_review": "User reported success before optional-visibility correction; corrected version requires reimport"
+}

@@ -1,0 +1,1577 @@
+[
+  {
+    "id": "2.A",
+    "section": "2",
+    "stage": "context",
+    "legacy_ids": [
+      "NT-RCS-P-001"
+    ],
+    "source_refs": [
+      "2; 3 (AIS); 5.1"
+    ],
+    "pdf_pages": [
+      "5-8"
+    ],
+    "title_es": "Obligatoriedad de la norma",
+    "title_en": "Mandatory nature of the standard",
+    "text_es": "La NT-RCS es obligatoria para adquirir y mantener la afiliación al SINPE.",
+    "text_en": "NT-RCS is mandatory to obtain and maintain SINPE membership.",
+    "condition_es": "",
+    "condition_en": "",
+    "kind": "context"
+  },
+  {
+    "id": "3.A",
+    "section": "3",
+    "stage": "context",
+    "legacy_ids": [
+      "NT-RCS-P-001"
+    ],
+    "source_refs": [
+      "2; 3 (AIS); 5.1"
+    ],
+    "pdf_pages": [
+      "5-8"
+    ],
+    "title_es": "Definición de AIS",
+    "title_en": "AIS definition",
+    "text_es": "AIS comprende los elementos que procesan, almacenan o transmiten transacciones hacia y desde SINPE. Esta definición delimita el alcance; no es un control adicional.",
+    "text_en": "AIS comprises elements processing, storing or transmitting transactions to and from SINPE. This defines scope; it is not an additional control.",
+    "condition_es": "",
+    "condition_en": "",
+    "kind": "context"
+  },
+  {
+    "id": "5.1.A",
+    "section": "5.1",
+    "stage": "preparation",
+    "legacy_ids": [
+      "NT-RCS-P-001"
+    ],
+    "source_refs": [
+      "2; 3 (AIS); 5.1"
+    ],
+    "pdf_pages": [
+      "5-8"
+    ],
+    "title_es": "Cobertura del ámbito de evaluación",
+    "title_en": "Assessment scope coverage",
+    "text_es": "Verificar que la evaluación incluye la plataforma requerida para operar con SINPE, servidores y equipos interconectados, usuarios y accesos al AIS, intercambio de datos AIS–plataforma de la entidad y equipos de conexión. Considerar las ampliaciones de alcance de cada control.",
+    "text_en": "Verify that assessment covers the platform needed to operate with SINPE, interconnected servers and equipment, users and AIS access, AIS–entity platform data exchange and connection equipment. Consider scope extensions in individual controls.",
+    "condition_es": "",
+    "condition_en": "",
+    "kind": "checklist"
+  },
+  {
+    "id": "5.1.B",
+    "section": "5.1",
+    "stage": "preparation",
+    "legacy_ids": [
+      "NT-RCS-P-002"
+    ],
+    "source_refs": [
+      "2; 6.8; 6.9"
+    ],
+    "pdf_pages": [
+      "6"
+    ],
+    "title_es": "Alcance completo de 6.8 y 6.9",
+    "title_en": "Full scope of 6.8 and 6.9",
+    "text_es": "Verificar que los controles 6.8 y 6.9 abarcan toda la plataforma tecnológica de la entidad y no únicamente el AIS. Referencia adicional: sección 2.",
+    "text_en": "Verify that controls 6.8 and 6.9 cover the entity’s entire technology platform, not only AIS. Additional reference: section 2.",
+    "condition_es": "",
+    "condition_en": "",
+    "kind": "checklist"
+  },
+  {
+    "id": "5.1.C",
+    "section": "5.1",
+    "stage": "preparation",
+    "legacy_ids": [
+      "NT-RCS-P-003"
+    ],
+    "source_refs": [
+      "5.1"
+    ],
+    "pdf_pages": [
+      "8"
+    ],
+    "title_es": "Inclusión de servicios de terceros",
+    "title_en": "Inclusion of third-party services",
+    "text_es": "Verificar que los servicios de terceros comprendidos en los ámbitos regulados están incluidos en la evaluación. La responsabilidad de cumplimiento permanece en la entidad afiliada.",
+    "text_en": "Verify that third-party services within the regulated scope are included in the assessment. Compliance responsibility remains with the member entity.",
+    "condition_es": "Cuando se utilicen servicios de terceros dentro del ámbito.",
+    "condition_en": "When third-party services are used within scope.",
+    "kind": "checklist"
+  },
+  {
+    "id": "5.2.1.A",
+    "section": "5.2.1",
+    "stage": "report",
+    "legacy_ids": [
+      "NT-RCS-P-004"
+    ],
+    "source_refs": [
+      "5.2.1"
+    ],
+    "pdf_pages": [
+      "9"
+    ],
+    "title_es": "Cumplimiento integral y dictamen",
+    "title_en": "Full compliance and report verdict",
+    "text_es": "Verificar que el criterio considera todos los aspectos de cada control obligatorio. Si cualquiera no se satisface adecuadamente, el informe completo debe declarar incumplimiento. Un porcentaje o promedio no reemplaza esta regla.",
+    "text_en": "Verify that the opinion considers every aspect of each mandatory control. If any is not adequately satisfied, the entire report must state noncompliance. A percentage or average does not replace this rule.",
+    "condition_es": "",
+    "condition_en": "",
+    "kind": "checklist"
+  },
+  {
+    "id": "5.2.2.A",
+    "section": "5.2.2",
+    "stage": "context",
+    "legacy_ids": [
+      "NT-RCS-P-005"
+    ],
+    "source_refs": [
+      "5.2.2-5.2.3"
+    ],
+    "pdf_pages": [
+      "9"
+    ],
+    "title_es": "Naturaleza de controles opcionales",
+    "title_en": "Nature of optional controls",
+    "text_es": "Los controles opcionales refuerzan la postura de ciberseguridad; se debe valorar su cumplimiento y revisión. Pueden pasar a obligatorios en versiones posteriores. No se convierten en obligatorios por esta biblioteca.",
+    "text_en": "Optional controls strengthen cybersecurity posture; their implementation and review should be considered. They may become mandatory in later versions. This library does not make them mandatory.",
+    "condition_es": "",
+    "condition_en": "",
+    "kind": "context"
+  },
+  {
+    "id": "5.2.3.A",
+    "section": "5.2.3",
+    "stage": "preparation",
+    "legacy_ids": [
+      "NT-RCS-P-005"
+    ],
+    "source_refs": [
+      "5.2.2-5.2.3"
+    ],
+    "pdf_pages": [
+      "9"
+    ],
+    "title_es": "Exclusión de controles no aplicables",
+    "title_en": "Exclusion of non-applicable controls",
+    "text_es": "Verificar que los controles clasificados como no aplicables a la categoría de conexión no se evalúan. No confundir esta exclusión con el incumplimiento de un control obligatorio.",
+    "text_en": "Verify that controls classified as not applicable to the connection category are not assessed. Do not confuse this exclusion with noncompliance with a mandatory control.",
+    "condition_es": "",
+    "condition_en": "",
+    "kind": "checklist"
+  },
+  {
+    "id": "5.3.1.A",
+    "section": "5.3.1",
+    "stage": "preparation",
+    "legacy_ids": [
+      "NT-RCS-P-006"
+    ],
+    "source_refs": [
+      "5.3.1"
+    ],
+    "pdf_pages": [
+      "9"
+    ],
+    "title_es": "Clasificación de conexiones con web services",
+    "title_en": "Classification of web-service connections",
+    "text_es": "Verificar la clasificación en categoría 1 cuando se consume al menos un web service expuesto por SINPE, directamente o mediante proveedores, terminales de terceros, entidades del mismo grupo, instituciones que trabajan en conjunto o similares, entidades adquiridas o intervenidas. El esquema de comunicación con el proveedor no altera esta clasificación.",
+    "text_en": "Verify Category 1 classification when at least one SINPE web service is consumed directly or through providers, third-party terminals, entities in the same group, cooperating or similar institutions, acquired entities or entities under intervention. The communication arrangement with the provider does not alter classification.",
+    "condition_es": "Cuando se consuma al menos un web service de SINPE.",
+    "condition_en": "When at least one SINPE web service is consumed.",
+    "kind": "checklist"
+  },
+  {
+    "id": "5.3.2.A",
+    "section": "5.3.2",
+    "stage": "preparation",
+    "legacy_ids": [
+      "NT-RCS-P-007"
+    ],
+    "source_refs": [
+      "5.3.2"
+    ],
+    "pdf_pages": [
+      "10"
+    ],
+    "title_es": "Clasificación de acceso directo sin web services",
+    "title_en": "Classification of direct access without web services",
+    "text_es": "Verificar que la clasificación en categoría 2 corresponde a una entidad que no utiliza servicios expuestos por web services y accede directamente desde la terminal SINPE.",
+    "text_en": "Verify that Category 2 classification corresponds to an entity using no web-service-exposed services and accessing SINPE directly from its terminal.",
+    "condition_es": "Cuando se utilice categoría 2.",
+    "condition_en": "When Category 2 is used.",
+    "kind": "checklist"
+  },
+  {
+    "id": "5.3.2.B",
+    "section": "5.3.2",
+    "stage": "preparation",
+    "legacy_ids": [
+      "NT-RCS-P-007"
+    ],
+    "source_refs": [
+      "5.3.2"
+    ],
+    "pdf_pages": [
+      "10"
+    ],
+    "title_es": "Transición a servicios de categoría 1",
+    "title_en": "Transition to Category 1 services",
+    "text_es": "Antes de la autorización para nuevos servicios con web services, verificar el cumplimiento de requisitos y del proceso de revisión de categoría 1.",
+    "text_en": "Before authorization for new web-service-based services, verify compliance with Category 1 requirements and its review process.",
+    "condition_es": "Entidad de categoría 2 que solicita nuevos servicios con web services.",
+    "condition_en": "Category 2 entity requesting new web-service-based services.",
+    "kind": "checklist"
+  },
+  {
+    "id": "5.4.1.A",
+    "section": "5.4.1",
+    "stage": "report",
+    "legacy_ids": [
+      "NT-RCS-P-008"
+    ],
+    "source_refs": [
+      "5.4; 5.4.1"
+    ],
+    "pdf_pages": [
+      "10"
+    ],
+    "title_es": "Informe emitido por auditor",
+    "title_en": "Auditor-issued report",
+    "text_es": "Verificar que el informe es emitido por un auditor y especifica el cumplimiento de la totalidad de controles aplicables según categoría, o declara incumplimiento y activa el proceso de remediación cuando corresponda.",
+    "text_en": "Verify that the report is issued by an auditor and specifies compliance with all controls applicable to the category, or states noncompliance and triggers remediation where appropriate.",
+    "condition_es": "",
+    "condition_en": "",
+    "kind": "checklist"
+  },
+  {
+    "id": "5.4.1.B",
+    "section": "5.4.1",
+    "stage": "report",
+    "legacy_ids": [
+      "NT-RCS-P-009"
+    ],
+    "source_refs": [
+      "5.4.1"
+    ],
+    "pdf_pages": [
+      "10"
+    ],
+    "title_es": "Antigüedad del informe",
+    "title_en": "Report age",
+    "text_es": "Verificar que el informe no tiene más de un mes de emitido al presentarse.",
+    "text_en": "Verify that the report is no more than one month old when submitted.",
+    "condition_es": "",
+    "condition_en": "",
+    "kind": "checklist"
+  },
+  {
+    "id": "5.4.1.C",
+    "section": "5.4.1",
+    "stage": "preparation",
+    "legacy_ids": [
+      "NT-RCS-P-009"
+    ],
+    "source_refs": [
+      "5.4.1"
+    ],
+    "pdf_pages": [
+      "10"
+    ],
+    "title_es": "Continuidad del período auditado",
+    "title_en": "Continuity of the audited period",
+    "text_es": "Verificar que el período auditado continúa el período equivalente del último informe sin dejar períodos descubiertos. Para una entidad en proceso de afiliación, el primer período podrá variar según criterio de auditoría.",
+    "text_en": "Verify that the audited period continues the equivalent period of the previous report without coverage gaps. For an applicant, the first period may vary at the auditor’s discretion.",
+    "condition_es": "",
+    "condition_en": "",
+    "kind": "checklist"
+  },
+  {
+    "id": "5.4.1.D",
+    "section": "5.4.1",
+    "stage": "report",
+    "legacy_ids": [
+      "NT-RCS-P-010"
+    ],
+    "source_refs": [
+      "5.4.1; 7"
+    ],
+    "pdf_pages": [
+      "10"
+    ],
+    "title_es": "Estructura mínima e información identificable",
+    "title_en": "Minimum structure and identifiable information",
+    "text_es": "Verificar el esquema y todos los contenidos mínimos del anexo. La información requerida debe estar presente y ser fácilmente identificable. Corregir y presentar nuevamente los informes deficientes sin alterar los plazos normativos.",
+    "text_en": "Verify the annex structure and all minimum contents. Required information must be present and easily identifiable. Correct and resubmit deficient reports without changing regulatory deadlines.",
+    "condition_es": "",
+    "condition_en": "",
+    "kind": "checklist"
+  },
+  {
+    "id": "5.4.1.E",
+    "section": "5.4.1",
+    "stage": "report",
+    "legacy_ids": [
+      "NT-RCS-P-011"
+    ],
+    "source_refs": [
+      "5.4.1"
+    ],
+    "pdf_pages": [
+      "10"
+    ],
+    "title_es": "Informes de cumplimiento de proveedores",
+    "title_en": "Provider compliance reports",
+    "text_es": "Verificar que se incluyen los informes de cumplimiento de la parte atendida por proveedores externos.",
+    "text_en": "Verify that compliance reports for the parts handled by external providers are included.",
+    "condition_es": "Cuando se utilicen proveedores externos.",
+    "condition_en": "When external providers are used.",
+    "kind": "checklist"
+  },
+  {
+    "id": "5.4.1.F",
+    "section": "5.4.1",
+    "stage": "report",
+    "legacy_ids": [
+      "NT-RCS-P-011"
+    ],
+    "source_refs": [
+      "5.4.1"
+    ],
+    "pdf_pages": [
+      "10"
+    ],
+    "title_es": "Delimitación de responsabilidades e informes",
+    "title_en": "Delineation of responsibilities and reports",
+    "text_es": "Verificar que se explicita el alcance de cada informe y cuáles controles atienden los proveedores y cuáles la entidad. La entidad conserva responsabilidad por todos los controles aplicables.",
+    "text_en": "Verify that each report’s scope and the controls handled by providers and by the entity are explicit. The entity retains responsibility for all applicable controls.",
+    "condition_es": "Cuando se utilicen proveedores externos.",
+    "condition_en": "When external providers are used.",
+    "kind": "checklist"
+  },
+  {
+    "id": "5.4.2.A",
+    "section": "5.4.2",
+    "stage": "preparation",
+    "legacy_ids": [
+      "NT-RCS-P-012"
+    ],
+    "source_refs": [
+      "5.4.2"
+    ],
+    "pdf_pages": [
+      "10-11"
+    ],
+    "title_es": "Certificación de la persona responsable",
+    "title_en": "Certification of the responsible person",
+    "text_es": "Verificar que la persona a cargo del informe cuenta al menos con alguna de las certificaciones exigidas: CISA, CISM, CISSP, SSCP o Auditor Líder ISO 27001.",
+    "text_en": "Verify that the person in charge of the report holds at least one required certification: CISA, CISM, CISSP, SSCP or ISO 27001 Lead Auditor.",
+    "condition_es": "",
+    "condition_en": "",
+    "kind": "checklist"
+  },
+  {
+    "id": "5.4.2.B",
+    "section": "5.4.2",
+    "stage": "preparation",
+    "legacy_ids": [
+      "NT-RCS-P-012"
+    ],
+    "source_refs": [
+      "5.4.2"
+    ],
+    "pdf_pages": [
+      "10-11"
+    ],
+    "title_es": "Verificación y garantía de atestados",
+    "title_en": "Verification and assurance of credentials",
+    "text_es": "Verificar que la entidad comprueba y garantiza ante BCCR los atestados de la persona a cargo de la auditoría y responsable del informe. El incumplimiento invalida el informe.",
+    "text_en": "Verify that the entity checks and assures BCCR of the credentials of the person in charge of the audit and responsible for the report. Noncompliance invalidates the report.",
+    "condition_es": "",
+    "condition_en": "",
+    "kind": "checklist"
+  },
+  {
+    "id": "5.4.2.C",
+    "section": "5.4.2",
+    "stage": "report",
+    "legacy_ids": [
+      "NT-RCS-P-012"
+    ],
+    "source_refs": [
+      "5.4.2"
+    ],
+    "pdf_pages": [
+      "10-11"
+    ],
+    "title_es": "Atestados anexos al informe",
+    "title_en": "Credentials attached to the report",
+    "text_es": "Verificar que los atestados correspondientes se anexan al informe de auditoría.",
+    "text_en": "Verify that the corresponding credentials are attached to the audit report.",
+    "condition_es": "",
+    "condition_en": "",
+    "kind": "checklist"
+  },
+  {
+    "id": "5.4.2.D",
+    "section": "5.4.2",
+    "stage": "preparation",
+    "legacy_ids": [
+      "NT-RCS-P-013"
+    ],
+    "source_refs": [
+      "5.4.2"
+    ],
+    "pdf_pages": [
+      "11"
+    ],
+    "title_es": "Consultas y coordinación por el afiliado",
+    "title_en": "Queries and coordination through the member",
+    "text_es": "Verificar que las consultas y coordinación con BCCR se realizan por medio del afiliado y su Responsable de Servicios. BCCR no mantiene relación o coordinación directa con los auditores.",
+    "text_en": "Verify that queries and coordination with BCCR go through the member and its Services Officer. BCCR does not coordinate directly with auditors.",
+    "condition_es": "Cuando existan consultas o coordinación con BCCR.",
+    "condition_en": "When queries or coordination with BCCR occur.",
+    "kind": "checklist"
+  },
+  {
+    "id": "5.4.3.A",
+    "section": "5.4.3",
+    "stage": "report",
+    "legacy_ids": [
+      "NT-RCS-P-014"
+    ],
+    "source_refs": [
+      "5.4.3"
+    ],
+    "pdf_pages": [
+      "11"
+    ],
+    "title_es": "Caso y destinatario del informe",
+    "title_en": "Submission case and recipient",
+    "text_es": "Verificar la remisión al Departamento SINPE del BCCR mediante un caso creado por el Responsable de Servicios o Informático Titular de la entidad.",
+    "text_en": "Verify submission to BCCR’s SINPE Department through a case created by the entity’s Services Officer or designated primary IT officer.",
+    "condition_es": "",
+    "condition_en": "",
+    "kind": "checklist"
+  },
+  {
+    "id": "5.4.3.B",
+    "section": "5.4.3",
+    "stage": "report",
+    "legacy_ids": [
+      "NT-RCS-P-014"
+    ],
+    "source_refs": [
+      "5.4.3"
+    ],
+    "pdf_pages": [
+      "11"
+    ],
+    "title_es": "Oficio formal con firma digital",
+    "title_en": "Formal letter with digital signature",
+    "text_es": "Verificar que el informe se acompaña de un oficio formal firmado digitalmente por el Representante Legal o autoridad equivalente de la entidad.",
+    "text_en": "Verify that the report is accompanied by a formal letter digitally signed by the entity’s Legal Representative or equivalent authority.",
+    "condition_es": "",
+    "condition_en": "",
+    "kind": "checklist"
+  },
+  {
+    "id": "5.4.3.C",
+    "section": "5.4.3",
+    "stage": "report",
+    "legacy_ids": [
+      "NT-RCS-P-014"
+    ],
+    "source_refs": [
+      "5.4.3"
+    ],
+    "pdf_pages": [
+      "11"
+    ],
+    "title_es": "Revisión de forma y fondo por la entidad",
+    "title_en": "Entity review of form and substance",
+    "text_es": "Verificar que la entidad revisa el informe antes de presentarlo y garantiza el cumplimiento de la norma en forma y fondo.",
+    "text_en": "Verify that the entity reviews the report before submission and assures compliance with the standard in form and substance.",
+    "condition_es": "",
+    "condition_en": "",
+    "kind": "checklist"
+  },
+  {
+    "id": "5.4.3.D",
+    "section": "5.4.3",
+    "stage": "report",
+    "legacy_ids": [
+      "NT-RCS-P-015"
+    ],
+    "source_refs": [
+      "5.4.3"
+    ],
+    "pdf_pages": [
+      "11"
+    ],
+    "title_es": "Canal seguro de presentación",
+    "title_en": "Secure submission channel",
+    "text_es": "Verificar el uso exclusivo del canal seguro de Atención al Ciudadano establecido por BCCR para crear el caso y presentar el informe. No presentar por correo electrónico ni por otros medios no oficiales.",
+    "text_en": "Verify exclusive use of the secure Citizen Service channel established by BCCR to create the case and submit the report. Do not submit by email or other unofficial channels.",
+    "condition_es": "",
+    "condition_en": "",
+    "kind": "checklist"
+  },
+  {
+    "id": "5.4.3.E",
+    "section": "5.4.3",
+    "stage": "preparation",
+    "legacy_ids": [
+      "NT-RCS-P-015"
+    ],
+    "source_refs": [
+      "5.4.3"
+    ],
+    "pdf_pages": [
+      "11"
+    ],
+    "title_es": "Coordinación de extranet para nuevas entidades",
+    "title_en": "Extranet coordination for new entities",
+    "text_es": "Verificar que el canal de extranet designado se coordina con el personal que atiende la conexión.",
+    "text_en": "Verify that the designated extranet channel is coordinated with the staff handling the connection.",
+    "condition_es": "Para nuevas entidades.",
+    "condition_en": "For new entities.",
+    "kind": "checklist"
+  },
+  {
+    "id": "5.4.3.F",
+    "section": "5.4.3",
+    "stage": "preparation",
+    "legacy_ids": [
+      "NT-RCS-P-016"
+    ],
+    "source_refs": [
+      "5.4.3"
+    ],
+    "pdf_pages": [
+      "11"
+    ],
+    "title_es": "Destinatario de credenciales de extranet",
+    "title_en": "Recipient of extranet credentials",
+    "text_es": "Verificar que las credenciales de extranet se remiten únicamente al Responsable de Servicios designado por la entidad.",
+    "text_en": "Verify that extranet credentials are sent only to the Services Officer designated by the entity.",
+    "condition_es": "Cuando se utilice extranet.",
+    "condition_en": "When extranet is used.",
+    "kind": "checklist"
+  },
+  {
+    "id": "5.4.3.G",
+    "section": "5.4.3",
+    "stage": "preparation",
+    "legacy_ids": [
+      "NT-RCS-P-016"
+    ],
+    "source_refs": [
+      "5.4.3"
+    ],
+    "pdf_pages": [
+      "11"
+    ],
+    "title_es": "Datos del Responsable de Servicios",
+    "title_en": "Services Officer information",
+    "text_es": "Verificar que la entidad mantiene actualizada la información del Responsable de Servicios.",
+    "text_en": "Verify that the entity keeps the Services Officer’s information up to date.",
+    "condition_es": "Cuando se utilice extranet.",
+    "condition_en": "When extranet is used.",
+    "kind": "checklist"
+  },
+  {
+    "id": "5.4.3.H",
+    "section": "5.4.3",
+    "stage": "preparation",
+    "legacy_ids": [
+      "NT-RCS-P-016"
+    ],
+    "source_refs": [
+      "5.4.3"
+    ],
+    "pdf_pages": [
+      "11"
+    ],
+    "title_es": "Gestión de nuevas credenciales",
+    "title_en": "Arrangement of new credentials",
+    "text_es": "Verificar que la entidad gestiona ante BCCR nuevas credenciales de extranet cuando sea necesario.",
+    "text_en": "Verify that the entity arranges new extranet credentials with BCCR when necessary.",
+    "condition_es": "Cuando sea necesario otorgar nuevas credenciales.",
+    "condition_en": "When new credentials are required.",
+    "kind": "checklist"
+  },
+  {
+    "id": "5.4.4.A",
+    "section": "5.4.4",
+    "stage": "report",
+    "legacy_ids": [
+      "NT-RCS-P-017"
+    ],
+    "source_refs": [
+      "5.4.4"
+    ],
+    "pdf_pages": [
+      "11"
+    ],
+    "title_es": "Presentación anual hasta el 30 de junio",
+    "title_en": "Annual submission by June 30",
+    "text_es": "Verificar la presentación durante el primer semestre del año, con fecha límite del 30 de junio.",
+    "text_en": "Verify submission during the first half of the year, no later than June 30.",
+    "condition_es": "Para entidades afiliadas en el ciclo anual.",
+    "condition_en": "For members in the annual cycle.",
+    "kind": "checklist"
+  },
+  {
+    "id": "5.4.4.B",
+    "section": "5.4.4",
+    "stage": "context",
+    "legacy_ids": [
+      "NT-RCS-P-017"
+    ],
+    "source_refs": [
+      "5.4.4"
+    ],
+    "pdf_pages": [
+      "11"
+    ],
+    "title_es": "Vigencia del informe anual",
+    "title_en": "Annual report validity",
+    "text_es": "El informe anual tiene validez desde el 1 de julio del año en curso hasta el 30 de junio siguiente, cuando debe estar presentado el nuevo informe.",
+    "text_en": "The annual report is valid from July 1 of the current year through the following June 30, by which time the next report must have been submitted.",
+    "condition_es": "",
+    "condition_en": "",
+    "kind": "context"
+  },
+  {
+    "id": "5.4.4.C",
+    "section": "5.4.4",
+    "stage": "followup",
+    "legacy_ids": [
+      "NT-RCS-P-018"
+    ],
+    "source_refs": [
+      "5.4.4"
+    ],
+    "pdf_pages": [
+      "11"
+    ],
+    "title_es": "Seguimiento de respuesta del BCCR",
+    "title_en": "Follow-up on BCCR response",
+    "text_es": "Verificar que la entidad está atenta a la respuesta de BCCR sobre el estado del informe.",
+    "text_en": "Verify that the entity monitors BCCR’s response on the report’s status.",
+    "condition_es": "",
+    "condition_en": "",
+    "kind": "checklist"
+  },
+  {
+    "id": "5.4.4.D",
+    "section": "5.4.4",
+    "stage": "preparation",
+    "legacy_ids": [
+      "NT-RCS-P-018"
+    ],
+    "source_refs": [
+      "5.4.4"
+    ],
+    "pdf_pages": [
+      "11"
+    ],
+    "title_es": "Correo operativo y recepción de comunicaciones",
+    "title_en": "Working email and receipt of communications",
+    "text_es": "Verificar que funciona el correo del Responsable de Servicios; si no funciona, realizar seguimiento para asegurar las comunicaciones oficiales.",
+    "text_en": "Verify that the Services Officer’s email works; otherwise follow up to ensure official communications are received.",
+    "condition_es": "",
+    "condition_en": "",
+    "kind": "checklist"
+  },
+  {
+    "id": "5.4.4.E",
+    "section": "5.4.4",
+    "stage": "preparation",
+    "legacy_ids": [
+      "NT-RCS-P-019"
+    ],
+    "source_refs": [
+      "5.4.4"
+    ],
+    "pdf_pages": [
+      "11"
+    ],
+    "title_es": "Requisitos previos a la afiliación",
+    "title_en": "Requirements before membership",
+    "text_es": "Verificar que la entidad cumple todos los requisitos aplicables antes de afiliarse.",
+    "text_en": "Verify that the entity meets all applicable requirements before membership.",
+    "condition_es": "Entidad interesada en afiliarse.",
+    "condition_en": "Entity seeking membership.",
+    "kind": "checklist"
+  },
+  {
+    "id": "5.4.4.F",
+    "section": "5.4.4",
+    "stage": "context",
+    "legacy_ids": [
+      "NT-RCS-P-019"
+    ],
+    "source_refs": [
+      "5.4.4"
+    ],
+    "pdf_pages": [
+      "11"
+    ],
+    "title_es": "Vigencia del primer informe",
+    "title_en": "First report validity",
+    "text_es": "Para una entidad que se afilia, el informe tiene validez desde la aceptación del BCCR hasta el próximo 30 de junio.",
+    "text_en": "For an applicant, the report is valid from BCCR acceptance through the next June 30.",
+    "condition_es": "",
+    "condition_en": "",
+    "kind": "context"
+  },
+  {
+    "id": "5.4.5.A",
+    "section": "5.4.5",
+    "stage": "followup",
+    "legacy_ids": [
+      "NT-RCS-P-020"
+    ],
+    "source_refs": [
+      "5.4.5"
+    ],
+    "pdf_pages": [
+      "12"
+    ],
+    "title_es": "Plan remedial con acciones concretas",
+    "title_en": "Remediation plan with concrete actions",
+    "text_es": "Verificar que se aporta un plan remedial con acciones concretas que aseguren el cumplimiento de los controles incumplidos.",
+    "text_en": "Verify that a remediation plan with concrete actions ensuring compliance of failed controls is provided.",
+    "condition_es": "Si el informe establece controles incumplidos.",
+    "condition_en": "If the report identifies noncompliant controls.",
+    "kind": "checklist"
+  },
+  {
+    "id": "5.4.5.B",
+    "section": "5.4.5",
+    "stage": "followup",
+    "legacy_ids": [
+      "NT-RCS-P-020"
+    ],
+    "source_refs": [
+      "5.4.5"
+    ],
+    "pdf_pages": [
+      "12"
+    ],
+    "title_es": "Ejecución del plan hasta el 31 de octubre",
+    "title_en": "Plan execution by October 31",
+    "text_es": "Verificar que la ejecución del plan remedial finaliza a más tardar el 31 de octubre del año en curso.",
+    "text_en": "Verify that remediation plan execution finishes no later than October 31 of the current year.",
+    "condition_es": "Si existe un plan remedial por incumplimiento.",
+    "condition_en": "If a remediation plan for noncompliance exists.",
+    "kind": "checklist"
+  },
+  {
+    "id": "5.4.5.C",
+    "section": "5.4.5",
+    "stage": "followup",
+    "legacy_ids": [
+      "NT-RCS-P-020"
+    ],
+    "source_refs": [
+      "5.4.5"
+    ],
+    "pdf_pages": [
+      "12"
+    ],
+    "title_es": "Nuevo informe y reevaluación",
+    "title_en": "New report and reassessment",
+    "text_es": "Una vez atendidos los incumplimientos, verificar que se presenta un nuevo informe con seguimiento del plan y evaluación de los controles nuevamente, siguiendo el procedimiento de presentación establecido.",
+    "text_en": "After addressing noncompliance, verify submission of a new report with plan follow-up and reassessment of controls, following the established submission procedure.",
+    "condition_es": "Después de atender incumplimientos.",
+    "condition_en": "After addressing noncompliance.",
+    "kind": "checklist"
+  },
+  {
+    "id": "5.4.5.D",
+    "section": "5.4.5",
+    "stage": "followup",
+    "legacy_ids": [
+      "NT-RCS-P-021"
+    ],
+    "source_refs": [
+      "5.4.5"
+    ],
+    "pdf_pages": [
+      "12"
+    ],
+    "title_es": "Observaciones atendidas en un mes natural",
+    "title_en": "Observations addressed within one calendar month",
+    "text_es": "Verificar la atención de observaciones de BCCR en un plazo no mayor a un mes natural después de la notificación oficial.",
+    "text_en": "Verify that BCCR observations are addressed within no more than one calendar month after official notification.",
+    "condition_es": "Cuando BCCR notifique observaciones.",
+    "condition_en": "When BCCR notifies observations.",
+    "kind": "checklist"
+  },
+  {
+    "id": "5.4.5.E",
+    "section": "5.4.5",
+    "stage": "followup",
+    "legacy_ids": [
+      "NT-RCS-P-021"
+    ],
+    "source_refs": [
+      "5.4.5"
+    ],
+    "pdf_pages": [
+      "12"
+    ],
+    "title_es": "Reenvío completo con ajustes y evidencia",
+    "title_en": "Complete resubmission with adjustments and evidence",
+    "text_es": "Verificar el reenvío del informe completo, con los ajustes necesarios y evidencia clara de cómo se atendieron las observaciones.",
+    "text_en": "Verify resubmission of the complete report with necessary adjustments and clear evidence of how observations were addressed.",
+    "condition_es": "Después de atender observaciones de BCCR.",
+    "condition_en": "After addressing BCCR observations.",
+    "kind": "checklist"
+  },
+  {
+    "id": "5.4.5.F",
+    "section": "5.4.5",
+    "stage": "report",
+    "legacy_ids": [
+      "NT-RCS-P-022"
+    ],
+    "source_refs": [
+      "5.4.5"
+    ],
+    "pdf_pages": [
+      "12"
+    ],
+    "title_es": "Informe propio sin copia de otro informe",
+    "title_en": "Original report without copying another report",
+    "text_es": "Verificar que la auditoría no ha copiado otro informe. La detección de copia se considera incumplimiento y puede conllevar solicitud de cambio del equipo auditor.",
+    "text_en": "Verify that the audit team has not copied another report. Detected copying is treated as noncompliance and may lead to a request to change the audit team.",
+    "condition_es": "",
+    "condition_en": "",
+    "kind": "checklist"
+  },
+  {
+    "id": "5.4.5.G",
+    "section": "5.4.5",
+    "stage": "context",
+    "legacy_ids": [
+      "NT-RCS-P-023"
+    ],
+    "source_refs": [
+      "5.4.5"
+    ],
+    "pdf_pages": [
+      "12"
+    ],
+    "title_es": "Consecuencias de incumplimiento persistente",
+    "title_en": "Consequences of persistent noncompliance",
+    "text_es": "Agotadas las opciones y plazos sin subsanar incumplimientos, no se autoriza la afiliación del solicitante. Para afiliados, se informa a máximas autoridades y supervisor; según impacto, BCCR puede ordenar un proceso sancionatorio. Estas son consecuencias regulatorias, no acciones que deba ejecutar la entidad como checklist.",
+    "text_en": "After options and deadlines are exhausted without resolution, an applicant is not authorized to join. For members, highest authorities and supervisor are informed; depending on impact, BCCR may order sanction proceedings. These are regulatory consequences, not checklist actions for the entity.",
+    "condition_es": "",
+    "condition_en": "",
+    "kind": "context"
+  },
+  {
+    "id": "5.4.6.A",
+    "section": "5.4.6",
+    "stage": "incidents",
+    "legacy_ids": [
+      "NT-RCS-P-024"
+    ],
+    "source_refs": [
+      "5.4.6"
+    ],
+    "pdf_pages": [
+      "12"
+    ],
+    "title_es": "Reporte oportuno de incidentes",
+    "title_en": "Prompt incident reporting",
+    "text_es": "Verificar que los incidentes de ciberseguridad se reportan oportunamente por los canales establecidos por BCCR.",
+    "text_en": "Verify that cybersecurity incidents are reported promptly through BCCR-established channels.",
+    "condition_es": "Si la entidad enfrenta un incidente.",
+    "condition_en": "If the entity experiences an incident.",
+    "kind": "checklist"
+  },
+  {
+    "id": "5.4.6.B",
+    "section": "5.4.6",
+    "stage": "incidents",
+    "legacy_ids": [
+      "NT-RCS-P-024"
+    ],
+    "source_refs": [
+      "5.4.6"
+    ],
+    "pdf_pages": [
+      "12"
+    ],
+    "title_es": "Aplicación de la NC de Gestión de Riesgos",
+    "title_en": "Application of the Complementary Risk Management Standard",
+    "text_es": "Verificar que se acata la Norma Complementaria de Gestión de Riesgos, tanto si el incidente afecta el AIS como si no lo afecta. Consultar esa norma por separado; no se inventan sus requisitos ni plazos en esta biblioteca.",
+    "text_en": "Verify compliance with the Complementary Risk Management Standard, whether or not the incident affects AIS. Consult that standard separately; its requirements and deadlines are not invented in this library.",
+    "condition_es": "Si la entidad enfrenta un incidente.",
+    "condition_en": "If the entity experiences an incident.",
+    "kind": "checklist"
+  },
+  {
+    "id": "5.4.6.C",
+    "section": "5.4.6",
+    "stage": "incidents",
+    "legacy_ids": [
+      "NT-RCS-P-025"
+    ],
+    "source_refs": [
+      "5.4.6"
+    ],
+    "pdf_pages": [
+      "12-13"
+    ],
+    "title_es": "Recertificación de controles ajustados",
+    "title_en": "Recertification of adjusted controls",
+    "text_es": "Verificar la recertificación de los controles ajustados o modificados por la atención del incidente AIS.",
+    "text_en": "Verify recertification of controls adjusted or modified in response to the AIS incident.",
+    "condition_es": "Después de un incidente que afecta AIS.",
+    "condition_en": "After an incident affecting AIS.",
+    "kind": "checklist"
+  },
+  {
+    "id": "5.4.6.D",
+    "section": "5.4.6",
+    "stage": "incidents",
+    "legacy_ids": [
+      "NT-RCS-P-025"
+    ],
+    "source_refs": [
+      "5.4.6"
+    ],
+    "pdf_pages": [
+      "12-13"
+    ],
+    "title_es": "Cumplimiento efectivo y causas de debilidad",
+    "title_en": "Effective compliance and causes of weakness",
+    "text_es": "Verificar el cumplimiento efectivo de controles afectados y las debilidades observadas, incluyendo fallas de implementación, mantenimiento o diseño.",
+    "text_en": "Verify effective compliance of affected controls and observed weaknesses, including implementation, maintenance or design failures.",
+    "condition_es": "Durante recertificación tras incidente AIS.",
+    "condition_en": "During recertification following an AIS incident.",
+    "kind": "checklist"
+  },
+  {
+    "id": "5.4.6.E",
+    "section": "5.4.6",
+    "stage": "incidents",
+    "legacy_ids": [
+      "NT-RCS-P-025"
+    ],
+    "source_refs": [
+      "5.4.6"
+    ],
+    "pdf_pages": [
+      "12-13"
+    ],
+    "title_es": "Otros controles posiblemente vulnerados",
+    "title_en": "Other potentially compromised controls",
+    "text_es": "Verificar que el auditor incluye en la recertificación otros controles cuando existe duda razonable de que fueron vulnerados.",
+    "text_en": "Verify that the auditor includes other controls in recertification where there is reasonable doubt they were compromised.",
+    "condition_es": "Si existe duda razonable sobre otros controles.",
+    "condition_en": "If reasonable doubt exists regarding other controls.",
+    "kind": "checklist"
+  },
+  {
+    "id": "5.4.6.F",
+    "section": "5.4.6",
+    "stage": "incidents",
+    "legacy_ids": [
+      "NT-RCS-P-025"
+    ],
+    "source_refs": [
+      "5.4.6"
+    ],
+    "pdf_pages": [
+      "12-13"
+    ],
+    "title_es": "Efectividad de controles nuevos o ajustados",
+    "title_en": "Effectiveness of new or adjusted controls",
+    "text_es": "Verificar que se evalúa si los controles nuevos o ajustados son adecuados para mitigar futuros incidentes, procurando validar su efectividad.",
+    "text_en": "Verify assessment of whether new or adjusted controls are suitable to mitigate future incidents, seeking to validate their effectiveness.",
+    "condition_es": "Durante recertificación tras incidente AIS.",
+    "condition_en": "During recertification following an AIS incident.",
+    "kind": "checklist"
+  },
+  {
+    "id": "5.4.6.G",
+    "section": "5.4.6",
+    "stage": "incidents",
+    "legacy_ids": [
+      "NT-RCS-P-025"
+    ],
+    "source_refs": [
+      "5.4.6"
+    ],
+    "pdf_pages": [
+      "12-13"
+    ],
+    "title_es": "Informe de recertificación y reconexión",
+    "title_en": "Recertification report and reconnection",
+    "text_es": "Verificar el envío del informe de recertificación por el mismo proceso del informe anual. Es requisito para la reconexión de la entidad.",
+    "text_en": "Verify submission of the recertification report through the annual-report process. It is a prerequisite for the entity’s reconnection.",
+    "condition_es": "Cuando procede reconexión después de un incidente AIS.",
+    "condition_en": "When reconnection is required after an AIS incident.",
+    "kind": "checklist"
+  },
+  {
+    "id": "7.A",
+    "section": "7",
+    "stage": "report",
+    "legacy_ids": [
+      "NT-RCS-P-026"
+    ],
+    "source_refs": [
+      "7: Información de la entidad"
+    ],
+    "pdf_pages": [
+      "27"
+    ],
+    "title_es": "Identificación de la entidad",
+    "title_en": "Entity identification",
+    "text_es": "Incluir nombre y código de la entidad afiliada o solicitante.",
+    "text_en": "Include the member or applicant entity’s name and code.",
+    "condition_es": "",
+    "condition_en": "",
+    "kind": "checklist"
+  },
+  {
+    "id": "7.B",
+    "section": "7",
+    "stage": "report",
+    "legacy_ids": [
+      "NT-RCS-P-026"
+    ],
+    "source_refs": [
+      "7: Información de la entidad"
+    ],
+    "pdf_pages": [
+      "27"
+    ],
+    "title_es": "Período evaluado",
+    "title_en": "Assessed period",
+    "text_es": "Incluir el detalle del período evaluado que cubre el informe.",
+    "text_en": "Include details of the assessed period covered by the report.",
+    "condition_es": "",
+    "condition_en": "",
+    "kind": "checklist"
+  },
+  {
+    "id": "7.C",
+    "section": "7",
+    "stage": "report",
+    "legacy_ids": [
+      "NT-RCS-P-026"
+    ],
+    "source_refs": [
+      "7: Información de la entidad"
+    ],
+    "pdf_pages": [
+      "27"
+    ],
+    "title_es": "Proveedores en la evaluación",
+    "title_en": "Providers in the assessment",
+    "text_es": "Incluir los proveedores que brindan servicios relacionados con SINPE y son parte de la evaluación.",
+    "text_en": "Include providers of SINPE-related services that form part of the assessment.",
+    "condition_es": "Cuando existan proveedores dentro del alcance.",
+    "condition_en": "When providers exist within scope.",
+    "kind": "checklist"
+  },
+  {
+    "id": "7.D",
+    "section": "7",
+    "stage": "report",
+    "legacy_ids": [
+      "NT-RCS-P-026"
+    ],
+    "source_refs": [
+      "7: Información de la entidad"
+    ],
+    "pdf_pages": [
+      "27"
+    ],
+    "title_es": "Período de revisión anterior",
+    "title_en": "Previous review period",
+    "text_es": "Indicar el período cubierto en la revisión anterior cuando aplique.",
+    "text_en": "State the period covered by the previous review where applicable.",
+    "condition_es": "Cuando exista revisión anterior aplicable.",
+    "condition_en": "When a previous review applies.",
+    "kind": "checklist"
+  },
+  {
+    "id": "7.E",
+    "section": "7",
+    "stage": "report",
+    "legacy_ids": [
+      "NT-RCS-P-027"
+    ],
+    "source_refs": [
+      "7: Resumen ejecutivo"
+    ],
+    "pdf_pages": [
+      "27"
+    ],
+    "title_es": "Resumen ejecutivo",
+    "title_en": "Executive summary",
+    "text_es": "Incluir visión general, principales hallazgos, recomendaciones y conclusiones de cumplimiento.",
+    "text_en": "Include an overview, main findings, recommendations and compliance conclusions.",
+    "condition_es": "",
+    "condition_en": "",
+    "kind": "checklist"
+  },
+  {
+    "id": "7.F",
+    "section": "7",
+    "stage": "report",
+    "legacy_ids": [
+      "NT-RCS-P-028"
+    ],
+    "source_refs": [
+      "7: Introducción"
+    ],
+    "pdf_pages": [
+      "27"
+    ],
+    "title_es": "Introducción del informe",
+    "title_en": "Report introduction",
+    "text_es": "Indicar propósito y alcance de la auditoría, metodología y estándares o marcos utilizados para emitir el informe.",
+    "text_en": "State audit purpose and scope, methodology and standards or frameworks used to issue the report.",
+    "condition_es": "",
+    "condition_en": "",
+    "kind": "checklist"
+  },
+  {
+    "id": "7.G",
+    "section": "7",
+    "stage": "report",
+    "legacy_ids": [
+      "NT-RCS-P-029"
+    ],
+    "source_refs": [
+      "7: Marco Organizacional"
+    ],
+    "pdf_pages": [
+      "27"
+    ],
+    "title_es": "Marco organizacional",
+    "title_en": "Organizational context",
+    "text_es": "Incluir categoría 1 o 2, políticas y enfoque de ciberseguridad, nombre y código de la entidad.",
+    "text_en": "Include Category 1 or 2, cybersecurity policies and approach, and entity name and code.",
+    "condition_es": "",
+    "condition_en": "",
+    "kind": "checklist"
+  },
+  {
+    "id": "7.H",
+    "section": "7",
+    "stage": "report",
+    "legacy_ids": [
+      "NT-RCS-P-029"
+    ],
+    "source_refs": [
+      "7: Marco Organizacional"
+    ],
+    "pdf_pages": [
+      "27"
+    ],
+    "title_es": "Entidades del grupo incluidas",
+    "title_en": "Group entities in scope",
+    "text_es": "Identificar los datos de cada entidad afiliada incluida en informes a nivel de grupo.",
+    "text_en": "Identify each member entity included in group-level reports.",
+    "condition_es": "Para informes a nivel de grupo.",
+    "condition_en": "For group-level reports.",
+    "kind": "checklist"
+  },
+  {
+    "id": "7.I",
+    "section": "7",
+    "stage": "report",
+    "legacy_ids": [
+      "NT-RCS-P-030"
+    ],
+    "source_refs": [
+      "7: Equipo de auditores"
+    ],
+    "pdf_pages": [
+      "27"
+    ],
+    "title_es": "Equipo auditor y certificaciones",
+    "title_en": "Audit team and certifications",
+    "text_es": "Identificar auditores participantes y certificaciones que los califican para emitir el informe.",
+    "text_en": "Identify participating auditors and certifications qualifying them to issue the report.",
+    "condition_es": "",
+    "condition_en": "",
+    "kind": "checklist"
+  },
+  {
+    "id": "7.J",
+    "section": "7",
+    "stage": "report",
+    "legacy_ids": [
+      "NT-RCS-P-030"
+    ],
+    "source_refs": [
+      "7: Equipo de auditores"
+    ],
+    "pdf_pages": [
+      "27"
+    ],
+    "title_es": "Declaración y evidencia de verificación",
+    "title_en": "Declaration and verification evidence",
+    "text_es": "Incluir declaración de la entidad de cumplimiento de los requisitos del equipo auditor y evidencia de verificación de sus atestados.",
+    "text_en": "Include the entity’s declaration that auditor requirements are met and evidence of credential verification.",
+    "condition_es": "",
+    "condition_en": "",
+    "kind": "checklist"
+  },
+  {
+    "id": "7.K",
+    "section": "7",
+    "stage": "report",
+    "legacy_ids": [
+      "NT-RCS-P-031"
+    ],
+    "source_refs": [
+      "7: Alcance de la auditoría"
+    ],
+    "pdf_pages": [
+      "27"
+    ],
+    "title_es": "Sistemas, activos y procesos",
+    "title_en": "Systems, assets and processes",
+    "text_es": "Identificar sistemas, activos y procesos sujetos a evaluación.",
+    "text_en": "Identify systems, assets and processes subject to assessment.",
+    "condition_es": "",
+    "condition_en": "",
+    "kind": "checklist"
+  },
+  {
+    "id": "7.L",
+    "section": "7",
+    "stage": "report",
+    "legacy_ids": [
+      "NT-RCS-P-032"
+    ],
+    "source_refs": [
+      "7: Metodología"
+    ],
+    "pdf_pages": [
+      "27"
+    ],
+    "title_es": "Procedimientos, técnicas y herramientas",
+    "title_en": "Procedures, techniques and tools",
+    "text_es": "Describir procedimientos, técnicas y herramientas empleados para evaluar la ciberseguridad de la entidad.",
+    "text_en": "Describe procedures, techniques and tools used to assess the entity’s cybersecurity.",
+    "condition_es": "",
+    "condition_en": "",
+    "kind": "checklist"
+  },
+  {
+    "id": "7.M",
+    "section": "7",
+    "stage": "report",
+    "legacy_ids": [
+      "NT-RCS-P-033"
+    ],
+    "source_refs": [
+      "7: Hallazgos de la auditoría"
+    ],
+    "pdf_pages": [
+      "27"
+    ],
+    "title_es": "Hallazgos dentro del informe",
+    "title_en": "Findings within the report",
+    "text_es": "Presentar por apartado su cumplimiento o los hallazgos e incumplimientos detallados dentro del informe, no como anexos.",
+    "text_en": "Present each section’s compliance or detailed findings and noncompliance within the report, not in annexes.",
+    "condition_es": "",
+    "condition_en": "",
+    "kind": "checklist"
+  },
+  {
+    "id": "7.N",
+    "section": "7",
+    "stage": "report",
+    "legacy_ids": [
+      "NT-RCS-P-033"
+    ],
+    "source_refs": [
+      "7: Hallazgos de la auditoría"
+    ],
+    "pdf_pages": [
+      "27"
+    ],
+    "title_es": "Tabla mínima de hallazgos",
+    "title_en": "Minimum findings table",
+    "text_es": "Incluir tabla con número de control, nombre y detalle, evidencia revisada y estado de cumplimiento.",
+    "text_en": "Include a table with control number, name and details, reviewed evidence and compliance status.",
+    "condition_es": "",
+    "condition_en": "",
+    "kind": "checklist"
+  },
+  {
+    "id": "7.O",
+    "section": "7",
+    "stage": "report",
+    "legacy_ids": [
+      "NT-RCS-P-034"
+    ],
+    "source_refs": [
+      "7: Tabla, ID y detalle del control"
+    ],
+    "pdf_pages": [
+      "27-28"
+    ],
+    "title_es": "Números y nombres oficiales",
+    "title_en": "Official control numbers and names",
+    "text_es": "Usar los números y nombres de controles tal como aparecen en la norma técnica vigente. Si se transcribe el texto completo, no alterar el criterio de auditoría.",
+    "text_en": "Use control numbers and names as stated in the applicable technical standard. If full text is transcribed, do not alter the audit criterion.",
+    "condition_es": "",
+    "condition_en": "",
+    "kind": "checklist"
+  },
+  {
+    "id": "7.P",
+    "section": "7",
+    "stage": "report",
+    "legacy_ids": [
+      "NT-RCS-P-035"
+    ],
+    "source_refs": [
+      "7: Tabla, detalle de cumplimiento"
+    ],
+    "pdf_pages": [
+      "27-28"
+    ],
+    "title_es": "Evidencia y explicación de cobertura",
+    "title_en": "Evidence and explanation of coverage",
+    "text_es": "Indicar evidencia de cumplimiento y sustantiva revisada; explicar cómo satisface todos los aspectos de cada control, no solo su tema central. Se pueden usar descripciones, capturas o transcripciones.",
+    "text_en": "State the compliance and substantive evidence reviewed; explain how it satisfies all aspects of each control, not only its central topic. Descriptions, screenshots or transcriptions may be used.",
+    "condition_es": "",
+    "condition_en": "",
+    "kind": "checklist"
+  },
+  {
+    "id": "7.Q",
+    "section": "7",
+    "stage": "report",
+    "legacy_ids": [
+      "NT-RCS-P-036"
+    ],
+    "source_refs": [
+      "7: Tabla, pruebas y periodicidad"
+    ],
+    "pdf_pages": [
+      "28"
+    ],
+    "title_es": "Pruebas adicionales y resultados",
+    "title_en": "Additional tests and results",
+    "text_es": "Indicar las pruebas adicionales realizadas por el auditor y sus resultados de cumplimiento.",
+    "text_en": "State additional tests performed by the auditor and their compliance results.",
+    "condition_es": "Cuando el auditor realice pruebas adicionales.",
+    "condition_en": "When the auditor performs additional tests.",
+    "kind": "checklist"
+  },
+  {
+    "id": "7.R",
+    "section": "7",
+    "stage": "report",
+    "legacy_ids": [
+      "NT-RCS-P-036"
+    ],
+    "source_refs": [
+      "7: Tabla, pruebas y periodicidad"
+    ],
+    "pdf_pages": [
+      "28"
+    ],
+    "title_es": "Formalidad y aplicación periódica",
+    "title_en": "Formal requirement and periodic operation",
+    "text_es": "Obtener información suficiente para demostrar el requisito tanto en su formalidad como en su aplicación cuando se exige revisión o actualización periódica.",
+    "text_en": "Obtain sufficient information to demonstrate both the formal requirement and its operation where periodic review or updating is required.",
+    "condition_es": "Cuando el control exija actualización o revisión periódica.",
+    "condition_en": "When the control requires periodic updating or review.",
+    "kind": "checklist"
+  },
+  {
+    "id": "7.S",
+    "section": "7",
+    "stage": "report",
+    "legacy_ids": [
+      "NT-RCS-P-037"
+    ],
+    "source_refs": [
+      "7: Tabla, comentarios y criterio"
+    ],
+    "pdf_pages": [
+      "28"
+    ],
+    "title_es": "Comentarios adicionales",
+    "title_en": "Additional comments",
+    "text_es": "Agregar comentarios relevantes, recomendaciones, excepciones, faltantes de información y otros detalles relevantes de la revisión.",
+    "text_en": "Add relevant comments, recommendations, exceptions, missing information and other relevant review details.",
+    "condition_es": "Cuando existan comentarios o detalles relevantes.",
+    "condition_en": "When relevant comments or details exist.",
+    "kind": "checklist"
+  },
+  {
+    "id": "7.T",
+    "section": "7",
+    "stage": "report",
+    "legacy_ids": [
+      "NT-RCS-P-037"
+    ],
+    "source_refs": [
+      "7: Tabla, comentarios y criterio"
+    ],
+    "pdf_pages": [
+      "28"
+    ],
+    "title_es": "Criterio por control",
+    "title_en": "Opinion for each control",
+    "text_es": "El auditor debe emitir su criterio de cumplimiento por control con base en el detalle y evidencia expuestos.",
+    "text_en": "The auditor must issue a compliance opinion for each control based on the stated detail and evidence.",
+    "condition_es": "",
+    "condition_en": "",
+    "kind": "checklist"
+  },
+  {
+    "id": "7.U",
+    "section": "7",
+    "stage": "report",
+    "legacy_ids": [
+      "NT-RCS-P-038"
+    ],
+    "source_refs": [
+      "7: Tabla, estado de cumplimiento"
+    ],
+    "pdf_pages": [
+      "27"
+    ],
+    "title_es": "Estados Cumple o No cumple",
+    "title_en": "Compliant or Noncompliant status labels",
+    "text_es": "Verificar que para cada control evaluado el informe oficial utiliza «Cumple» o «No cumple». El «No aplica» del checklist corresponde únicamente a condiciones de los requisitos procedimentales; no sustituye estos estados oficiales.",
+    "text_en": "Verify that the official report uses “Cumple” or “No cumple” for each assessed control. Checklist “Not applicable” concerns procedural applicability only; it does not replace these official status labels.",
+    "condition_es": "",
+    "condition_en": "",
+    "kind": "checklist"
+  },
+  {
+    "id": "7.V",
+    "section": "7",
+    "stage": "report",
+    "legacy_ids": [
+      "NT-RCS-P-039"
+    ],
+    "source_refs": [
+      "7: Conclusión de la auditoría"
+    ],
+    "pdf_pages": [
+      "28"
+    ],
+    "title_es": "Conclusión final de auditoría",
+    "title_en": "Final audit conclusion",
+    "text_es": "Indicar si cumplen todos los controles o cuáles no cumplen lo solicitado.",
+    "text_en": "State whether all controls comply or which fail to meet the requirements.",
+    "condition_es": "",
+    "condition_en": "",
+    "kind": "checklist"
+  },
+  {
+    "id": "7.W",
+    "section": "7",
+    "stage": "report",
+    "legacy_ids": [
+      "NT-RCS-P-040"
+    ],
+    "source_refs": [
+      "7: Plan de Mitigación"
+    ],
+    "pdf_pages": [
+      "28"
+    ],
+    "title_es": "Plan de mitigación en el informe",
+    "title_en": "Mitigation plan in the report",
+    "text_es": "Incluir el plan de mitigación para alcanzar el cumplimiento en la fecha establecida por la norma si no se cumple al 100%.",
+    "text_en": "Include a mitigation plan to achieve compliance by the standard’s deadline if compliance is below 100%.",
+    "condition_es": "Si no se alcanza el cumplimiento al 100%.",
+    "condition_en": "If compliance is below 100%.",
+    "kind": "checklist"
+  },
+  {
+    "id": "7.X",
+    "section": "7",
+    "stage": "context",
+    "legacy_ids": [
+      "NT-RCS-P-041"
+    ],
+    "source_refs": [
+      "7: Anexos"
+    ],
+    "pdf_pages": [
+      "28"
+    ],
+    "title_es": "Anexos adicionales permitidos",
+    "title_en": "Permitted additional annexes",
+    "text_es": "Se pueden incluir documentos adicionales relevantes con evidencia de las pruebas u otros elementos pertinentes. Es una posibilidad, no una obligación general adicional; los atestados exigidos en 5.4.2 siguen siendo obligatorios.",
+    "text_en": "Additional relevant documents with test evidence or other pertinent items may be included. This is permission, not an additional general obligation; credentials required by 5.4.2 remain mandatory.",
+    "condition_es": "",
+    "condition_en": "",
+    "kind": "context"
+  },
+  {
+    "id": "5.A",
+    "section": "5",
+    "stage": "context",
+    "legacy_ids": [
+      "NT-RCS-P-042"
+    ],
+    "source_refs": [
+      "5; 5.2"
+    ],
+    "pdf_pages": [
+      "8-9"
+    ],
+    "title_es": "Revisión anual y avisos de ajustes",
+    "title_en": "Annual review and adjustment notices",
+    "text_es": "BCCR revisará la norma anualmente y notificará ajustes en diciembre, con vigencia para el siguiente período de evaluación. Es actividad del regulador, no obligación adicional del afiliado.",
+    "text_en": "BCCR will review the standard annually and notify adjustments in December, effective for the next assessment period. This is a regulator activity, not an additional member obligation.",
+    "condition_es": "",
+    "condition_en": "",
+    "kind": "context"
+  },
+  {
+    "id": "5.2.A",
+    "section": "5.2",
+    "stage": "context",
+    "legacy_ids": [
+      "NT-RCS-P-042"
+    ],
+    "source_refs": [
+      "5; 5.2"
+    ],
+    "pdf_pages": [
+      "8-9"
+    ],
+    "title_es": "Actualización de controles y requerimientos",
+    "title_en": "Updates to controls and requirements",
+    "text_es": "Los controles, su nivel de cumplimiento y los requerimientos pueden cambiar según el entorno de ciberseguridad. Conservar la referencia de edición utilizada. Esta nota es contexto, no un control adicional.",
+    "text_en": "Controls, their compliance level and requirements may change with cybersecurity conditions. Retain the reference to the edition used. This is context, not an additional control.",
+    "condition_es": "",
+    "condition_en": "",
+    "kind": "context"
+  }
+]

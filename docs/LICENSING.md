@@ -1,9 +1,5 @@
 # Licensing policy / Política de licencia
 
-The scoped grant in [LICENSE](../LICENSE) applies to authorized original contributions only. Preserve its complete text when redistributing that content. The standard MIT wording follows the [Open Source Initiative text](https://opensource.org/license/mit); the scope notice identifies material this project cannot license on behalf of others.
+[LICENSE](../LICENSE) grants MIT rights only over authorized original contributions. BCCR source wording, translations and regulatory adaptations are excluded; this repository does not sublicense them. The project owner authorized reuse based on the public BCCR publication. That project decision is recorded in [metadata](../framework/metadata.json) and does not change the scoped MIT grant.
 
-BCCR regulations and official publications are not licensed by this repository. Do not assume that public availability permits copying or sublicensing. Record the applicable terms and a reviewed basis for any reproduction in [THIRD_PARTY_NOTICES.md](../THIRD_PARTY_NOTICES.md). No BCCR regulatory content has been included in this scaffold.
-
-Original analysis must be clearly distinguished from literal quotations and adapted source wording. Rewording does not automatically resolve rights questions. For future Excel/YAML artifacts, include a visible licensing/provenance notice that distinguishes original fields from excluded material; do not label an entire mixed-content artifact simply MIT.
-
-La licencia MIT se limita al contenido original autorizado. No concede derechos sobre textos normativos, publicaciones, citas ni logotipos del BCCR o de terceros. Antes de reproducirlos, verificar sus condiciones y registrar la base de uso revisada. Una referencia bibliográfica no equivale a una autorización.
+La atribución normativa corresponde al BCCR; ARG INNOVA prepara la biblioteca y la traducción no oficial. No se incluye el PDF ni se concede derecho sobre marcas o logotipos de BCCR, SINPE o Intuitem. Mantener procedencia y avisos en futuras contribuciones.

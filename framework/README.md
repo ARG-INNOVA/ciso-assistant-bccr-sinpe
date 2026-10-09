@@ -1,9 +1,5 @@
-# Framework workspace — placeholder only
+# Framework workspace
 
-This directory is reserved for a future reviewed BCCR–SINPE library. No Excel workbook or framework YAML is present.
+[Current comprehensive library](releases/README.md): 47 official controls, 66 procedural checklist criteria, 9 context notes. [Metadata](metadata.json) records source, validation and user-reported import status.
 
-- [metadata.json](metadata.json): preparation status, not a CISO Assistant schema.
-- [drafts](drafts/README.md): instructions and a blank requirement template.
-- [releases](releases/README.md): future reviewed artifacts; currently empty of release content.
-
-Select official sources and an upstream version before creating artifacts. See [validation requirements](../docs/VALIDATION.md).
+[drafts](drafts/README.md) contains a blank drafting template only; no older documentary workbook is required for import. [Import instructions](../docs/IMPORT.md).

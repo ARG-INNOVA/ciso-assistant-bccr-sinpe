@@ -1,5 +1,7 @@
-# Releases — none available
+# Importable library / Biblioteca importable
 
-Only reviewed, validated and tested artifacts belong here. No framework release, Excel workbook or YAML library has been generated.
+- [Comprehensive YAML / YAML integral](bccr-sinpe-nt-rcs-ed7-evaluacion-integral.yaml)
+- [Import instructions / Instrucciones](../../docs/IMPORT.md)
+- [Validation / Validación](../../docs/VALIDATION.md)
 
-Before adding an artifact, complete [docs/VALIDATION.md](../../docs/VALIDATION.md), record its source baseline and selected CISO Assistant version, and include release notes, licensing/provenance notices, validation evidence and checksums. Update the project status, metadata and changelog truthfully.
+47 official technical controls + 66 procedural checklist criteria + 9 non-assessable context notes. YAML library version 2; proposed GitHub tag `v0.1.1`. User reported successful import and visual review; no isolated database import test or installed version was recorded. This is not an official BCCR certification or an accepted upstream release.
