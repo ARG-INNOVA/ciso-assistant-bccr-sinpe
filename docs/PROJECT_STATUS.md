@@ -1,11 +1,9 @@
-# Project status / Estado del proyecto
+# Project status
 
-Current artifact: [comprehensive YAML](../framework/releases/bccr-sinpe-nt-rcs-ed7-evaluacion-integral.yaml). Proposed first GitHub release tag: `v0.1.1`; YAML library version: `2`. The release has not been created automatically.
+Package v0.1.2 contains two fixed-category libraries: category 1 YAML v3 (47 technical controls and 66 procedural criteria), and category 2 YAML v1 (39 technical controls and 66 procedural criteria). Both include 9 context notes.
 
-47 official technical controls; 66 editorial procedural checklist criteria; 9 non-assessable context notes. User-reported successful import and visual review. Installed application version unknown. Independent consultant review is optional, not a publication prerequisite.
+Both libraries passed live import and synthetic result checks on 2026-10-14. Full mitigation workflow, full application suites and direct database score/importance verification remain pending or unperformed. The installed application version was not recorded.
 
-The library remains independent of Intuitem; no upstream acceptance or future bundled version is claimed. Catalogue/supersession checks and related standard contents have not been added to this baseline. No reviewed control mappings exist.
+[PR #5032](https://github.com/intuitem/ciso-assistant-community/pull/5032) remains pending acceptance. Publication here does not imply inclusion in the official product, regulatory certification or endorsement. The normative baseline remains NT-RCS edition 7; later source-catalogue changes have not been checked.
 
-Biblioteca importable revisada visualmente por el usuario. La evaluación sigue el documento NT-RCS edición 7 indicado; no se afirma ausencia de revisiones posteriores ni certificación de cumplimiento de una entidad.
-
-Optional visibility was corrected in YAML version 2 after the user’s import test. Reimport this version and select `cat1` or `cat2`; optional controls are included.
+[Import guide](IMPORT.md) · [Validation](VALIDATION.md) · [Changelog](../CHANGELOG.md)

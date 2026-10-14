@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-14",
+  "installed_application_version": null,
+  "method": "Observed live UI; synthetic answers; results persisted after returning to audit summaries",
+  "categories": {
+    "1": {
+      "technical": 47,
+      "mandatory_displayed": 43,
+      "optional_displayed": 4,
+      "procedural_questions": 66,
+      "assessable": 113,
+      "cases": {
+        "6.1.1": "compliant",
+        "6.1.2": "non_compliant",
+        "5.1.C": "not_applicable",
+        "6.2.1": "not_assessed"
+      },
+      "final_counts": {
+        "not_assessed": 110,
+        "compliant": 1,
+        "non_compliant": 1,
+        "not_applicable": 1
+      }
+    },
+    "2": {
+      "technical": 39,
+      "mandatory_displayed": 29,
+      "optional_displayed": 10,
+      "procedural_questions": 66,
+      "assessable": 105,
+      "excluded_technical_controls": [
+        "6.3.2",
+        "6.10.1",
+        "6.12.1",
+        "6.12.3",
+        "6.15.1",
+        "6.15.2",
+        "6.15.3",
+        "6.15.4"
+      ],
+      "cases": {
+        "6.1.1": "compliant",
+        "6.5.5": "non_compliant",
+        "5.1.C": "not_applicable",
+        "6.1.2": "not_assessed"
+      },
+      "final_counts": {
+        "not_assessed": 102,
+        "compliant": 1,
+        "non_compliant": 1,
+        "not_applicable": 1
+      }
+    }
+  },
+  "questionnaire_editable_score_fields": false,
+  "direct_database_importance_and_score_checks": false,
+  "full_mitigation_lifecycle_tested": false,
+  "upstream_acceptance": "pending",
+  "privacy": "No organization, user, instance URL, audit UUID or screenshots included"
+}

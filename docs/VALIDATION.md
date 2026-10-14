@@ -1,16 +1,13 @@
-# Validation scope / Alcance de validación
+# Validation of package v0.1.2
 
-[VALIDATION_RESULTS.json](VALIDATION_RESULTS.json) records the performed checks. The user subsequently reported successful import and visual review; the application version is unknown. The recorded isolated database import remains unperformed, distinct from the user’s report.
+The two category libraries passed structural/content regressions and 786 result-recomputation cases using native functions from upstream base commit 75b4788 with in-memory fixtures. Source text hashes cover 47 technical controls in category 1 and its 39 applicable controls in category 2. These checks are not a database integration test.
 
-The repository checker verifies required files, local links, metadata counts, YAML node uniqueness and parent/depth integrity, bilingual content, procedural traceability coverage, unchanged technical applicability, stage groups and result-only checklist choice configuration. It does not certify regulatory interpretation, reproduce the application database or run the full CISO Assistant suite.
+Both libraries were subsequently imported into an actual CISO Assistant instance on 2026-10-14. Interface checks confirmed 113/105 assessable requirements, the displayed category classification and 47/39 technical questions plus 66 procedural questions each. Synthetic answers produced compliant, noncompliant and procedural not-applicable results; unanswered requirements stayed unassessed. Results persisted after returning to each audit summary. No editable score fields appeared in the questionnaires.
 
-Native status/score behavior was checked separately in 230 cases with official functions and in-memory fixtures. Details and pinned upstream commit are in the results file. External consultant review is optional.
+The live 43/4 and 29/10 counts were verified from imported classification text. Native importance fields and numeric scores were not queried directly in the database. The default framework 0–100 metadata range remained visible. Installed application version was not recorded. Tests do not certify an organization's compliance or imply upstream acceptance.
 
-```sh
-python3 -m pip install -r scripts/requirements-validation.txt
-python3 scripts/validate_scaffold.py
-```
+The complete mitigation lifecycle, assignments, notifications, evidence upload and action closure remain untested. Full backend/frontend suites were not run for this package.
 
-Changing source content, conditions, groups or status logic requires revisiting validation; a green workflow is not a compliance verdict.
+[Machine-readable results](VALIDATION_RESULTS.json) · [Anonymized live checks](LIVE_VALIDATION.json)
 
-Version 2 adds a regression check: 6.3.3 must belong to both complete category groups and display Optional/Optional. The repository check also verifies all 47 original bodies after the classification prefix. User reimport of version 2 has not yet been reported.
+Run `python scripts/validate_scaffold.py` after installing `scripts/requirements-validation.txt`. This validates repository links, metadata, category libraries, source hashes and traceability. The GitHub workflow executes the same command.
