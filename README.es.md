@@ -1,51 +1,46 @@
 # BCCR–SINPE para CISO Assistant
 
-Preparado y mantenido por **[ARG INNOVA](https://www.arginnova.com)**. [English](README.md).
+Preparado por [ARG INNOVA](https://www.arginnova.com). [English](README.md).
 
-Biblioteca de evaluación integral basada en la NT-RCS del Banco Central de Costa Rica, edición 7, con vigencia del 11 de febrero de 2026.
+**Paquete v0.1.2.** Dos bibliotecas de evaluación por categoría basadas en NT-RCS edición 7, vigente desde el 11/02/2026. La contribución [PR #5032](https://github.com/intuitem/ciso-assistant-community/pull/5032) está pendiente de aceptación en CISO Assistant; este paquete es independiente del producto oficial.
 
-| Contenido | Cantidad |
-| --- | ---: |
-| Controles técnicos oficiales | 47 |
-| Criterios procedimentales de checklist | 66 |
-| Notas de contexto no evaluables | 9 |
+| Biblioteca | Controles técnicos | Obligatorios | Opcionales | Checklist | Total evaluable | Versión interna YAML |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| Categoría 1 | 47 | 43 | 4 | 66 | 113 | 3 |
+| Categoría 2 | 39 | 29 | 10 | 66 | 105 | 1 |
 
-Los 66 criterios son desgloses editoriales de obligaciones y requisitos procedimentales; no son controles oficiales adicionales. Los checklist se agrupan en preparación (17), elaboración y presentación del informe (36), seguimiento (6) e incidentes y reconexión (7).
+Cada biblioteca incluye 9 notas no evaluables. Los 66 criterios son desgloses editoriales procedimentales, no controles oficiales adicionales. Inglés: traducción no oficial; prevalece el texto español del BCCR.
 
 ## Descargar e importar
 
-- [YAML — biblioteca de evaluación integral](framework/releases/bccr-sinpe-nt-rcs-ed7-evaluacion-integral.yaml)
-- [Instrucciones de importación](docs/IMPORT.md)
-- [Versiones y descargas](https://github.com/ARG-INNOVA/ciso-assistant-bccr-sinpe/releases)
+- [Categoría 1](framework/releases/bccr-sinpe-nt-rcs-ed7-evaluacion-integral.yaml)
+- [Categoría 2](framework/releases/bccr-sinpe-nt-rcs-ed7-evaluacion-integral-cat2.yaml)
+- [Releases y ZIP](https://github.com/ARG-INNOVA/ciso-assistant-bccr-sinpe/releases)
+- [Guía de importación y actualización](docs/IMPORT.md)
 
-Importar el YAML mediante la función de carga de bibliotecas de CISO Assistant y crear una evaluación nueva. Usar los grupos técnicos de una sola categoría; mantener los cuatro grupos del checklist. Esta biblioteca tiene URNs propias y no migra automáticamente evaluaciones anteriores.
+Importe el YAML de la categoría de conexión correspondiente y cree una evaluación nueva. Ya no hay grupos `cat1`/`cat2` ni grupos de checklist que seleccionar. No combine las dos bibliotecas en una auditoría. El número del paquete (0.1.2) es independiente de la versión interna de cada YAML (3 y 1). No se promete migración automática de auditorías anteriores.
 
-Categoría 1 muestra 47 controles (43 obligatorios y 4 opcionales). Categoría 2 muestra 39 (29 obligatorios y 10 opcionales); excluye 8 no aplicables. Por defecto se selecciona categoría 1 completa y los cuatro checklist. La clasificación de ambas categorías aparece al inicio de cada control.
+## Resultados y mitigaciones
 
-El checklist utiliza Cumple / No cumple y, en requisitos condicionados, No aplica. Sus respuestas cambian el estado sin generar puntuación numérica. Los campos de puntuación se proponen ocultos en nuevas evaluaciones. El avance global puede incluir checklist y no equivale al dictamen regulatorio del BCCR.
+Todos los controles técnicos incluyen Cumple / No cumple. Los criterios procedimentales también ofrecen No aplica, que exige justificar la ausencia de la condición o evento aplicable; no sustituye una revisión pendiente, falta de evidencia ni una obligación aplicable. Sin respuesta, el requisito sigue sin evaluar.
 
-## Idiomas, referencias y validación
+Las respuestas usan `compute_result` sin `add_score`. No se introduce una escala de madurez. El rango 0–100 puede aparecer como metadato de la ficha del framework; las pruebas de cuestionario no mostraron campos editables de puntuación. Los porcentajes de estados y avance no son un dictamen regulatorio: un incumplimiento obligatorio no queda compensado por un promedio.
 
-Los controles técnicos conservan texto español e IDs oficiales. Inglés: traducción no oficial; prevalece el PDF español. Los sufijos como 5.4.3.A y 7.A son desgloses de ARG INNOVA, no numeración del BCCR.
+Gestione las acciones correctivas con controles aplicados, responsable, fecha objetivo, estado, avance y evidencia. La biblioteca no crea acciones automáticamente. La evidencia debe revisarse antes de cambiar el resultado de cumplimiento. El ciclo completo de mitigación todavía no se ha probado.
 
-El usuario reportó importación y revisión visual satisfactorias. Se realizaron comprobaciones de estructura, texto y aplicabilidad, y 230 casos con la lógica oficial de respuestas usando datos en memoria. No se ejecutó una prueba aislada de importación en base de datos; la versión de la instalación del usuario no fue registrada.
+## Validación y referencias
 
-- [Fuente normativa](docs/SOURCES.md)
-- [Alcance de validación](docs/VALIDATION.md)
-- [Resultados de las pruebas](docs/VALIDATION_RESULTS.json)
-- [Trazabilidad de desgloses](docs/TRACEABILITY.json)
-- [Estado del proyecto](docs/PROJECT_STATUS.md)
+Ambas bibliotecas se importaron en una instancia real y se probaron los cuatro estados con datos sintéticos. Hay 786 casos adicionales con funciones nativas y objetos en memoria. No se ejecutaron las suites completas de la aplicación ni se verificó el score directamente en base de datos. La versión instalada no fue registrada.
 
-## ARG INNOVA
-
-Para información de la empresa y servicios profesionales opcionales, visitar [www.arginnova.com](https://www.arginnova.com).
-
-Los créditos corresponden a la preparación de la biblioteca y traducción no oficial; la norma pertenece al BCCR. No se afirma aval del BCCR o Intuitem. El uso del contenido abierto autorizado no requiere contratar servicios.
+- [Validación y límites](docs/VALIDATION.md)
+- [Resultados reproducibles](docs/VALIDATION_RESULTS.json)
+- [Resumen anónimo de pruebas de interfaz](docs/LIVE_VALIDATION.json)
+- [Trazabilidad](docs/TRACEABILITY.json)
+- [Fuentes](docs/SOURCES.md)
+- [Historial](CHANGELOG.md)
 
 ## Licencia y contribuciones
 
-MIT cubre únicamente contenido original autorizado. Texto BCCR, traducciones y adaptaciones normativas quedan excluidos de la concesión. La reutilización normativa se realiza conforme al criterio y autorización del responsable del proyecto.
+La autoría normativa corresponde al BCCR. El empaquetado y las traducciones no oficiales son de ARG INNOVA. No se afirma aval del BCCR ni de Intuitem. MIT se limita al contenido original autorizado y excluye texto BCCR, traducciones y adaptaciones regulatorias. Se conserva el criterio de reutilización del responsable del proyecto.
 
 [LICENSE](LICENSE) · [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) · [CONTRIBUTING.md](CONTRIBUTING.md).
-
-La publicación en este repositorio es independiente de una eventual aceptación en el proyecto oficial de CISO Assistant.

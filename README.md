@@ -1,51 +1,46 @@
 # BCCR–SINPE for CISO Assistant
 
-Prepared and maintained by **[ARG INNOVA](https://www.arginnova.com)**. [Español](README.es.md).
+Prepared by [ARG INNOVA](https://www.arginnova.com). [Español](README.es.md).
 
-Comprehensive assessment library based on Banco Central de Costa Rica NT-RCS, edition 7, effective February 11, 2026.
+**Package v0.1.2.** Two category-specific compliance libraries based on BCCR NT-RCS edition 7, effective February 11, 2026. [PR #5032](https://github.com/intuitem/ciso-assistant-community/pull/5032) remains pending upstream acceptance. This package is independent of an official CISO Assistant distribution.
 
-| Contents | Count |
-| --- | ---: |
-| Official technical controls | 47 |
-| Procedural checklist criteria | 66 |
-| Non-assessable context notes | 9 |
+| Library | Technical controls | Mandatory | Optional | Checklist | Assessable total | Internal YAML version |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| Category 1 | 47 | 43 | 4 | 66 | 113 | 3 |
+| Category 2 | 39 | 29 | 10 | 66 | 105 | 1 |
 
-The 66 criteria are editorial subdivisions of procedural requirements, not additional official controls. Checklist stages cover preparation (17), report preparation/submission (36), follow-up (6), and incidents/reconnection (7).
+Each library also contains 9 non-assessable context notes. The 66 procedural checklist criteria are editorial subdivisions, not additional official controls. English translations are unofficial; the Spanish BCCR source prevails.
 
 ## Download and import
 
-- [YAML — comprehensive assessment library](framework/releases/bccr-sinpe-nt-rcs-ed7-evaluacion-integral.yaml)
-- [Import instructions](docs/IMPORT.md)
-- [Releases and downloads](https://github.com/ARG-INNOVA/ciso-assistant-bccr-sinpe/releases)
+- [Category 1 YAML](framework/releases/bccr-sinpe-nt-rcs-ed7-evaluacion-integral.yaml)
+- [Category 2 YAML](framework/releases/bccr-sinpe-nt-rcs-ed7-evaluacion-integral-cat2.yaml)
+- [Releases and ZIP](https://github.com/ARG-INNOVA/ciso-assistant-bccr-sinpe/releases)
+- [Import and upgrade guide](docs/IMPORT.md)
 
-Import the YAML through CISO Assistant’s library upload function and create a new assessment. Select technical groups from one category only and retain the four checklist groups. This library uses separate URNs and does not automatically migrate earlier assessments.
+Import the YAML for the entity's connection category and create a new assessment. There are no category or checklist implementation groups to select. Do not combine category libraries in one audit. Package version 0.1.2 is distinct from internal YAML versions 3 and 1. Automatic migration of earlier assessment answers is not provided or verified.
 
-Category 1 displays 47 controls (43 mandatory, 4 optional). Category 2 displays 39 (29 mandatory, 10 optional), excluding 8 non-applicable controls. Defaults select all of category 1 and the four checklist groups. Both category classifications appear at the start of every control.
+## Compliance and mitigation
 
-Checklist responses use Compliant / Noncompliant and, for conditional requirements, Not applicable. Answers drive status without numeric scores. Score fields are proposed hidden in new assessments. Overall progress may include checklist items and is not the BCCR regulatory verdict.
+All technical controls have Compliant / Noncompliant questions. All procedural criteria also offer Not applicable, requiring a documented absent triggering condition or event. It must not replace pending review, missing evidence or an applicable obligation. Unanswered requirements remain unassessed.
 
-## Languages, references and validation
+Choices use `compute_result` without `add_score`. No maturity scale is introduced. A default 0–100 range may appear on the framework detail page; the tested questionnaires had no editable score fields. Status percentages and progress do not establish a regulatory verdict or compensate for a failed mandatory control.
 
-Technical controls preserve official Spanish text and IDs. English translations are unofficial; the Spanish PDF prevails. Suffixes such as 5.4.3.A and 7.A are ARG INNOVA subdivisions, not BCCR numbering.
+Track mitigation using applied controls, owners, target dates, status, progress and evidence. The libraries do not create actions automatically. Auditors must review evidence before revising compliance results. A complete mitigation lifecycle has not yet been tested.
 
-The user reported successful import and visual review. Checks cover structure, text and applicability, plus 230 cases using official answer logic with in-memory fixtures. No isolated database import test was executed; the user’s installed version was not recorded.
+## Validation and references
 
-- [Source register](docs/SOURCES.md)
+Both libraries were imported into a live instance and four result states were tested with synthetic answers. An additional 786 cases used native functions with in-memory fixtures. Full application suites and direct database score checks were not performed. The installed application version was not recorded.
+
 - [Validation scope](docs/VALIDATION.md)
-- [Test results](docs/VALIDATION_RESULTS.json)
-- [Subdivision traceability](docs/TRACEABILITY.json)
-- [Project status](docs/PROJECT_STATUS.md)
-
-## ARG INNOVA
-
-For company information and optional professional services, visit [www.arginnova.com](https://www.arginnova.com).
-
-Credits cover library preparation and unofficial translation; BCCR is the regulatory author. No BCCR or Intuitem endorsement is claimed. Authorized open-source content does not require purchasing services.
+- [Validation results](docs/VALIDATION_RESULTS.json)
+- [Anonymized live checks](docs/LIVE_VALIDATION.json)
+- [Traceability](docs/TRACEABILITY.json)
+- [Sources](docs/SOURCES.md)
+- [Changelog](CHANGELOG.md)
 
 ## Licensing and contributions
 
-MIT covers authorized original content only. BCCR wording, translations and regulatory adaptations are excluded from the grant. Regulatory reuse follows the project owner’s stated decision and authorization.
+Regulatory author: Banco Central de Costa Rica. Packaging and unofficial translation: ARG INNOVA. No BCCR or Intuitem endorsement is claimed. MIT covers authorized original content only; BCCR wording, translations and regulatory adaptations remain excluded. Existing regulatory reuse terms are unchanged.
 
 [LICENSE](LICENSE) · [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) · [CONTRIBUTING.md](CONTRIBUTING.md).
-
-Publication in this repository is independent of any future acceptance into the official CISO Assistant project.
