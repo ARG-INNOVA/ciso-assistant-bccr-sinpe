@@ -2,9 +2,9 @@
   "project": "ciso-assistant-bccr-sinpe",
   "maintainer": "ARG INNOVA",
   "website": "https://www.arginnova.com",
-  "status": "importable_library_user_reviewed",
-  "release_tag_proposed": "v0.1.1",
-  "library_version": 2,
+  "status": "live_import_and_result_checks_passed_upstream_pending",
+  "release_tag_proposed": "v0.1.2",
+  "library_version": 3,
   "library_urn": "urn:arg-innova:risk:library:bccr-sinpe-nt-rcs-ed7-integral",
   "artifact": "framework/releases/bccr-sinpe-nt-rcs-ed7-evaluacion-integral.yaml",
   "official_technical_control_count": 47,
@@ -18,16 +18,38 @@
     "sha256": "349f7dc00cd2988699686c85c1d8feefd967ddedd23420994a53b53c664a053c",
     "latest_edition_catalogue_check": "not_performed"
   },
-  "upstream_reference_commit": "de943807c3b5e0d5dd8e92ff39bfadbc950bd7f8",
+  "upstream_reference_commit": "75b4788",
   "validation": {
     "structure_and_content": "passed",
-    "native_result_cases": 230,
-    "isolated_database_import": "not_performed",
-    "user_import_and_visual_review": "reported_successful_for_previous_library_version_1",
+    "native_result_cases": 786,
+    "live_ui_import_and_results": "passed_both_categories_2026-10-14",
     "user_ciso_assistant_version": null,
-    "independent_consultant_review": "optional",
-    "optional_visibility": "Corrected: all applicable optional controls visible in category groups; classification displayed in each control",
-    "corrected_library_version_2_user_reimport": "not_yet_reported"
+    "direct_database_checks": "not_performed",
+    "full_mitigation_lifecycle": "not_tested",
+    "upstream_acceptance": "pending"
   },
-  "reuse_project_decision": "Authorized by project owner based on public BCCR publication; no MIT grant over regulatory material"
+  "reuse_project_decision": "Authorized by project owner based on public BCCR publication; no MIT grant over regulatory material",
+  "package_version": "0.1.2",
+  "libraries": [
+    {
+      "category": 1,
+      "artifact": "framework/releases/bccr-sinpe-nt-rcs-ed7-evaluacion-integral.yaml",
+      "library_version": 3,
+      "technical_controls": 47,
+      "mandatory": 43,
+      "optional": 4,
+      "procedural_checklist": 66,
+      "assessable": 113
+    },
+    {
+      "category": 2,
+      "artifact": "framework/releases/bccr-sinpe-nt-rcs-ed7-evaluacion-integral-cat2.yaml",
+      "library_version": 1,
+      "technical_controls": 39,
+      "mandatory": 29,
+      "optional": 10,
+      "procedural_checklist": 66,
+      "assessable": 105
+    }
+  ]
 }

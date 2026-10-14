@@ -1,5 +1,5 @@
-# Framework workspace
+# Framework libraries
 
-[Current comprehensive library](releases/README.md): 47 official controls, 66 procedural checklist criteria, 9 context notes. [Metadata](metadata.json) records source, validation and user-reported import status.
+Package v0.1.2 provides fixed-category libraries. Choose [category 1](releases/bccr-sinpe-nt-rcs-ed7-evaluacion-integral.yaml) or [category 2](releases/bccr-sinpe-nt-rcs-ed7-evaluacion-integral-cat2.yaml) and create a new assessment. Internal YAML versions are 3 and 1 respectively. There are no category/checklist implementation groups to select.
 
-[drafts](drafts/README.md) contains a blank drafting template only; no older documentary workbook is required for import. [Import instructions](../docs/IMPORT.md).
+[Import and upgrade guide](../docs/IMPORT.md) · [Metadata](metadata.json)
